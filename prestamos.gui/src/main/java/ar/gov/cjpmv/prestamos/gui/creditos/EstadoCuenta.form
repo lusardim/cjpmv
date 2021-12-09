@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlFondoBlanco" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlFondoBlanco" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlFondoBlanco">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="pnlFondoBlanco.background"/>
+        <Property name="name" type="java.lang.String" value="pnlFondoBlanco" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="pnlGarantiasEnCurso" alignment="0" max="32767" attributes="2"/>
+                      <Component id="pnlCreditosEnCurso" alignment="0" max="32767" attributes="2"/>
+                      <Component id="xtsCreditosEnCurso" alignment="0" pref="760" max="32767" attributes="2"/>
+                      <Component id="btnImprimir" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="xtsGarantiasEnCurso" alignment="0" pref="760" max="32767" attributes="2"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="xtsCreditosEnCurso" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlCreditosEnCurso" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="xtsGarantiasEnCurso" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlGarantiasEnCurso" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="21" max="32767" attributes="0"/>
+                  <Component id="btnImprimir" min="-2" pref="27" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlCreditosEnCurso">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="pnlCreditosEnCurso.background"/>
+            <Property name="name" type="java.lang.String" value="pnlCreditosEnCurso" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="sllpCreditosEnCurso" alignment="0" pref="736" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="xtsCreditos" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace pref="424" max="32767" attributes="0"/>
+                                      <Component id="xhCancelarCredito" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="xhDetalleCuotasCreditos" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="xtsSobranteCuentaCorriente" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblMontoAdeudadoCredito1" min="-2" pref="466" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="xtsTotalAdeudado" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblMontoAdeudadoCredito" pref="545" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="xtsCreditos" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="xhDetalleCuotasCreditos" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="xhCancelarCredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="sllpCreditosEnCurso" pref="134" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xtsTotalAdeudado" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMontoAdeudadoCredito" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblMontoAdeudadoCredito1" pref="16" max="32767" attributes="1"/>
+                          <Component id="xtsSobranteCuentaCorriente" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="sllpCreditosEnCurso">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="sllpCreditosEnCurso" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblCreditosEnCurso">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="tblCreditosEnCurso.foreground"/>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="6" rowCount="12">
+                        <Column editable="true" title="N&#xfa;mero" type="java.lang.Object"/>
+                        <Column editable="true" title="Fecha Inicio" type="java.lang.Object"/>
+                        <Column editable="true" title="Monto Total" type="java.lang.Long"/>
+                        <Column editable="true" title="Cantidad de Cuotas" type="java.lang.Object"/>
+                        <Column editable="true" title="Cuotas Adeudadas" type="java.lang.Object"/>
+                        <Column editable="true" title="Saldo Adeudado" type="java.lang.Long"/>
+                      </Table>
+                    </Property>
+                    <Property name="gridColor" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+                    <Property name="name" type="java.lang.String" value="tblCreditosEnCurso" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsCreditos">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="xtsCreditos.foreground"/>
+                <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+                <Property name="name" type="java.lang.String" value="xtsCreditos" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtsCreditos.title"/>
+              </Properties>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhDetalleCuotasCreditos">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="xhDetalleCuotasCreditos.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="xhDetalleCuotasCreditos.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhDetalleCuotasCreditos.clickedColor"/>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="name" type="java.lang.String" value="xhDetalleCuotasCreditos" noResource="true"/>
+                <Property name="unclickedColor" type="java.awt.Color" resourceKey="xhDetalleCuotasCreditos.unclickedColor"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhDetalleCuotasCreditosActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsTotalAdeudado">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="name" type="java.lang.String" value="xtsTotalAdeudado" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtsTotalAdeudado.title"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMontoAdeudadoCredito">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblMontoAdeudadoCredito.text"/>
+                <Property name="name" type="java.lang.String" value="lblMontoAdeudadoCredito" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMontoAdeudadoCredito1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblMontoAdeudadoCredito1.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblMontoAdeudadoCredito1.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblMontoAdeudadoCredito1.text"/>
+                <Property name="name" type="java.lang.String" value="lblMontoAdeudadoCredito1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsSobranteCuentaCorriente">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="xtsSobranteCuentaCorriente.foreground"/>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="name" type="java.lang.String" value="xtsSobranteCuentaCorriente" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtsSobranteCuentaCorriente.title"/>
+              </Properties>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhCancelarCredito">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="xhCancelarCredito.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="xhCancelarCredito.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhCancelarCredito.clickedColor"/>
+                <Property name="font" type="java.awt.Font" resourceKey="xhCancelarCredito.font"/>
+                <Property name="name" type="java.lang.String" value="xhCancelarCredito" noResource="true"/>
+                <Property name="unclickedColor" type="java.awt.Color" resourceKey="xhCancelarCredito.unclickedColor"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhCancelarCreditoActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsCreditosEnCurso">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="colorTituloBarrita"/>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+            <Property name="name" type="java.lang.String" value="xtsCreditosEnCurso" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtsCreditosEnCurso.title"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsGarantiasEnCurso">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+            <Property name="name" type="java.lang.String" value="xtsGarantiasEnCurso" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtsGarantiasEnCurso.title"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="pnlGarantiasEnCurso">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="pnlGarantiasEnCurso.background"/>
+            <Property name="name" type="java.lang.String" value="pnlGarantiasEnCurso" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="xtsCreditoGarantia" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace pref="563" max="32767" attributes="0"/>
+                                      <Component id="xhDetalleCuotasGarantias" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="sllpGarantiasEnCurso" alignment="0" pref="736" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="1">
+                                      <Component id="xtsRespondiendoComoGarante" min="-2" max="-2" attributes="1"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblRespondiendoComoGarante" pref="493" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="xtsTotalAdeudadoGarantia" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblTotalAdeudadoGarantias" min="-2" pref="469" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="xtsCreditoGarantia" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="xhDetalleCuotasGarantias" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="sllpGarantiasEnCurso" pref="146" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xtsTotalAdeudadoGarantia" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTotalAdeudadoGarantias" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xtsRespondiendoComoGarante" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblRespondiendoComoGarante" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="sllpGarantiasEnCurso">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="sllpGarantiasEnCurso" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblGarantiasEnCurso">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="6" rowCount="12">
+                        <Column editable="true" title="N&#xfa;mero" type="java.lang.Object"/>
+                        <Column editable="true" title="Solicitante" type="java.lang.Object"/>
+                        <Column editable="true" title="Monto Total" type="java.lang.Object"/>
+                        <Column editable="true" title="Cantidad de Cuotas" type="java.lang.Object"/>
+                        <Column editable="true" title="Cuotas Adeudadas" type="java.lang.Object"/>
+                        <Column editable="true" title="Saldo Adeudado" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="tblGarantiasEnCurso" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsCreditoGarantia">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="xtsCreditoGarantia.foreground"/>
+                <Property name="name" type="java.lang.String" value="xtsCreditoGarantia" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtsCreditoGarantia.title"/>
+              </Properties>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhDetalleCuotasGarantias">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="xhDetalleCuotasGarantias.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="xhDetalleCuotasGarantias.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhDetalleCuotasGarantias.clickedColor"/>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="name" type="java.lang.String" value="xhDetalleCuotasGarantias" noResource="true"/>
+                <Property name="unclickedColor" type="java.awt.Color" resourceKey="xhDetalleCuotasGarantias.unclickedColor"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhDetalleCuotasGarantiasActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsTotalAdeudadoGarantia">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="name" type="java.lang.String" value="xtsTotalAdeudadoGarantia" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtsTotalAdeudadoGarantia.title"/>
+              </Properties>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsRespondiendoComoGarante">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="name" type="java.lang.String" value="xtsRespondiendoComoGarante" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtsRespondiendoComoGarante.title"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblRespondiendoComoGarante">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblRespondiendoComoGarante.text"/>
+                <Property name="name" type="java.lang.String" value="lblRespondiendoComoGarante" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblTotalAdeudadoGarantias">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblTotalAdeudadoGarantias.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblTotalAdeudadoGarantias.text"/>
+                <Property name="name" type="java.lang.String" value="lblTotalAdeudadoGarantias" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnImprimir">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="btnImprimir.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="btnImprimir.text"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[121, 23]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="btnImprimir" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[101, 23]"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

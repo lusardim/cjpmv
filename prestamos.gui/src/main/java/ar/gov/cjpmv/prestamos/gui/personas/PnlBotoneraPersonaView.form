@@ -1,0 +1,178 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="xtpNomina" alignment="0" pref="251" max="32767" attributes="1"/>
+                  <Component id="xtpPersonaFisica" alignment="0" pref="251" max="32767" attributes="1"/>
+                  <Component id="xtpPersonaJuridica" alignment="0" pref="251" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="pnlCabeceraBotoneraView1" alignment="0" pref="271" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="pnlCabeceraBotoneraView1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Component id="xtpPersonaFisica" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="xtpPersonaJuridica" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="xtpNomina" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="12" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpPersonaFisica">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="xtpPersonaFisica.background"/>
+        <Property name="font" type="java.awt.Font" resourceKey="TituloCuadroBotonera"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="xtpPersonaFisica.icon"/>
+        <Property name="name" type="java.lang.String" value="xtpPersonaFisica" noResource="true"/>
+        <Property name="title" type="java.lang.String" resourceKey="xtpPersonaFisica.title"/>
+      </Properties>
+      <SubComponents>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhNuevaPersonaFisica">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xhNuevaPersonaFisica.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xhNuevaPersonaFisica.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhNuevaPersonaFisica.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="OpcionesCuadroBotonera"/>
+            <Property name="name" type="java.lang.String" value="xhNuevaPersonaFisica" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhEditarPersonaFisica">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhEditarPersonaFisica.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhEditarPersonaFisica.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="OpcionesCuadroBotonera"/>
+            <Property name="name" type="java.lang.String" value="xhEditarPersonaFisica" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpPersonaJuridica">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="txpPersonaJuridica.background"/>
+        <Property name="font" type="java.awt.Font" resourceKey="TituloCuadroBotonera"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="txpPersonaJuridica.icon"/>
+        <Property name="name" type="java.lang.String" value="txpPersonaJuridica" noResource="true"/>
+        <Property name="title" type="java.lang.String" resourceKey="txpPersonaJuridica.title"/>
+      </Properties>
+      <SubComponents>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhNuevaPersonaJuridica">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhNuevaPersonaJuridica.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhNuevaPersonaJuridica.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="OpcionesCuadroBotonera"/>
+            <Property name="name" type="java.lang.String" value="xhNuevaPersonaJuridica" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhEditarPersonaJuridica">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhEditarPersonaJuridica.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhEditarPersonaJuridica.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="OpcionesCuadroBotonera"/>
+            <Property name="name" type="java.lang.String" value="xhEditarPersonaJuridica" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpNomina">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="xtpNomina.background"/>
+        <Property name="font" type="java.awt.Font" resourceKey="TituloCuadroBotonera"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="Impresion.icon"/>
+        <Property name="name" type="java.lang.String" value="xtpNomina" noResource="true"/>
+        <Property name="title" type="java.lang.String" resourceKey="xtpNomina.title"/>
+      </Properties>
+      <SubComponents>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhBeneficiarios">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhBeneficiarios.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhBeneficiarios.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="OpcionesCuadroBotonera"/>
+            <Property name="name" type="java.lang.String" value="xhBeneficiarios" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhBeneficiariosJOC">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhBeneficiariosJOC.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhBeneficiariosJOC.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="OpcionesCuadroBotonera"/>
+            <Property name="name" type="java.lang.String" value="xhBeneficiariosJOC" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhBeneficiariosJI">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhBeneficiariosJI.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhBeneficiariosJI.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhBeneficiariosJI.font"/>
+            <Property name="name" type="java.lang.String" value="xhBeneficiariosJI" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhBeneficiariosJEA">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhBeneficiariosJEA.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhBeneficiariosJEA.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhBeneficiariosJEA.font"/>
+            <Property name="name" type="java.lang.String" value="xhBeneficiariosJEA" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhBeneficiariosJA">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhBeneficiariosJA.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhBeneficiariosJA.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhBeneficiariosJA.font"/>
+            <Property name="name" type="java.lang.String" value="xhBeneficiariosJA" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhBeneficiariosP">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhBeneficiariosP.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhBeneficiariosP.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhBeneficiariosP.font"/>
+            <Property name="name" type="java.lang.String" value="xhBeneficiariosP" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhEmpleados">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhEmpleados.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhEmpleados.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhEmpleados.font"/>
+            <Property name="name" type="java.lang.String" value="xhEmpleados" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="ar.gov.cjpmv.prestamos.gui.comunes.PnlCabeceraBotoneraView" name="pnlCabeceraBotoneraView1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="pnlCabeceraBotoneraView1" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

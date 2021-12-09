@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="FondoGris"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[601, 90]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblCuit" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblRazonSocial" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEstado" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="txtRazonSocial" pref="118" max="32767" attributes="2"/>
+                  <Component id="cbxEstado" alignment="1" pref="118" max="32767" attributes="2"/>
+                  <Component id="txtCuit" alignment="0" pref="118" max="32767" attributes="2"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblFinActividades" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblInicioActividades" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="dtcFinActividades" pref="101" max="32767" attributes="0"/>
+                  <Component id="dtcInicioActividades" pref="101" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnBuscar" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblCuit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCuit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblInicioActividades" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblRazonSocial" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRazonSocial" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblEstado" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbxEstado" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="lblFinActividades" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="btnBuscar" alignment="0" max="32767" attributes="1"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="dtcInicioActividades" min="-2" pref="18" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                          <Component id="dtcFinActividades" min="-2" pref="18" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="17" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnBuscar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="btnBuscar.icon"/>
+        <Property name="name" type="java.lang.String" value="btnBuscar" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxEstado">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="cbxEstado.foreground"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="Activo"/>
+            <StringItem index="1" value="Inactivo"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="cbxEstado.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbxEstado" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEstado">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblEstado.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblEstado.text"/>
+        <Property name="name" type="java.lang.String" value="lblEstado" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFinActividades">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblFinActividades.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblFinActividades.text"/>
+        <Property name="name" type="java.lang.String" value="lblFinActividades" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblInicioActividades">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblInicioActividades.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblInicioActividades.text"/>
+        <Property name="name" type="java.lang.String" value="lblInicioActividades" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCuit">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="txtCuit.foreground"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="txtCuit.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="txtCuit" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRazonSocial">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblRazonSocial.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblRazonSocial.text"/>
+        <Property name="name" type="java.lang.String" value="lblRazonSocial" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCuit">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblCuit.text"/>
+        <Property name="name" type="java.lang.String" value="lblCuit" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="dtcInicioActividades">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="dtcInicioActividades" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="dtcFinActividades">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="dtcFinActividades" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRazonSocial">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="txtRazonSocial.foreground"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="txtRazonSocial.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="txtRazonSocial" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

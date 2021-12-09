@@ -1,0 +1,18 @@
+﻿Cambios a realizar en la base de datos cjpmv
+Armar un script
+*******************************************************************************
+1) Borrar tabla TipoBeneficio y cambiar la tabla Beneficio a la nueva estructura.(Esto ya esta agregado al script actualizacion.sql)
+
+2) Agregar todas las tablas de liquidación
+
+
+
+
+
+#########################  IMPORTANTE   ###################
+hay que cambiar esta variable en my.cfg para que ande el procedimiento almacenado
+thread_stack=256K
+
+
+para realizar la importacion
+mysql --default-character-set=utf8 -u root -proot cjpmv < actualizacion.sql

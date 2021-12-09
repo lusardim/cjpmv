@@ -1,0 +1,329 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jPanel2" alignment="0" min="0" max="32767" attributes="3"/>
+                  <Component id="jPanel3" alignment="0" max="32767" attributes="2"/>
+                  <Component id="xtsTituloParametroBusqueda" alignment="0" pref="722" max="32767" attributes="3"/>
+                  <Component id="jPanel4" alignment="0" max="32767" attributes="3"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="xtsTituloParametroBusqueda" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" pref="74" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsTituloParametroBusqueda">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="xtsTituloParametroBusqueda.foreground"/>
+        <Property name="font" type="java.awt.Font" resourceKey="xtsTituloParametroBusqueda.font"/>
+        <Property name="name" type="java.lang.String" value="xtsTituloParametroBusqueda" noResource="true"/>
+        <Property name="title" type="java.lang.String" resourceKey="xtsTituloParametroBusqueda.title"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel2.background"/>
+        <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Component id="cbxFormulario" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbxFormulario2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbxRecibo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbxOtorgamiento" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbxConcepto" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="17" max="32767" attributes="0"/>
+                          <Component id="btnImprimir" min="-2" pref="106" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblTituloSeleccionFecha2" min="-2" pref="297" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Component id="lblTituloSeleccionFecha2" min="-2" pref="24" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cbxFormulario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbxFormulario2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbxRecibo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbxOtorgamiento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnImprimir" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="cbxConcepto" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTituloSeleccionFecha2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="lblTituloSeleccionFecha2.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="lblTituloSeleccionFecha2.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblTituloSeleccionFecha2.text"/>
+            <Property name="name" type="java.lang.String" value="lblTituloSeleccionFecha2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbxFormulario">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="cbxFormulario.background"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="cbxFormulario.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="cbxFormulario.text"/>
+            <Property name="name" type="java.lang.String" value="cbxFormulario" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbxRecibo">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="cbxRecibo.background"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="cbxRecibo.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="cbxRecibo.text"/>
+            <Property name="name" type="java.lang.String" value="cbxRecibo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbxOtorgamiento">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="cbxOtorgamiento.background"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="cbxOtorgamiento.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="cbxOtorgamiento.text"/>
+            <Property name="name" type="java.lang.String" value="cbxOtorgamiento" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnImprimir">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="btnImprimir.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="btnImprimir.foreground"/>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="btnImprimir.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="btnImprimir.text"/>
+            <Property name="name" type="java.lang.String" value="btnImprimir" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbxFormulario2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="cbxFormulario2.background"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="cbxFormulario2.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="cbxFormulario2.text"/>
+            <Property name="name" type="java.lang.String" value="cbxFormulario2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="cbxConcepto">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="cbxConcepto.background"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="cbxConcepto.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="cbxConcepto.text"/>
+            <Property name="name" type="java.lang.String" value="cbxConcepto" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel3.background"/>
+        <Property name="name" type="java.lang.String" value="jPanel3" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" alignment="0" pref="702" max="32767" attributes="0"/>
+                      <Component id="lblTituloSeleccionFecha1" alignment="0" min="-2" pref="302" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTituloSeleccionFecha1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="139" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTituloSeleccionFecha1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="lblTituloSeleccionFecha1.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="lblTituloSeleccionFecha1.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblTituloSeleccionFecha1.text"/>
+            <Property name="name" type="java.lang.String" value="lblTituloSeleccionFecha1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tblResultado">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="tblResultado.foreground"/>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor predeterminado"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="tblResultado" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel4.background"/>
+        <Property name="name" type="java.lang.String" value="jPanel4" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="lblDescripcion5" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                      <Component id="lblDescripcion4" min="-2" pref="80" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="txtLegajo" min="-2" pref="168" max="-2" attributes="0"/>
+                      <Component id="txtNroCredito" alignment="0" min="-2" pref="168" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnBusqueda" min="-2" pref="45" max="-2" attributes="0"/>
+                  <EmptySpace pref="366" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnBusqueda" alignment="0" pref="46" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblDescripcion4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNroCredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblDescripcion5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtLegajo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblDescripcion4">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion4.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblDescripcion4.text"/>
+            <Property name="name" type="java.lang.String" value="lblDescripcion4" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblDescripcion5">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion5.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblDescripcion5.text"/>
+            <Property name="name" type="java.lang.String" value="lblDescripcion5" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNroCredito">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtNroCredito" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtLegajo">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtLegajo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnBusqueda">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="btnBusqueda.icon"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Cursor predeterminado"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="btnBusqueda" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="btnGrupo">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblDescripcion" alignment="0" min="-2" pref="64" max="-2" attributes="0"/>
+                          <Component id="lblValor" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txtDescripcion" alignment="0" max="32767" attributes="3"/>
+                          <Component id="txtDescripcion1" alignment="0" max="32767" attributes="3"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rbtnPorcentual" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="rbtnFijoPesos" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="ckbEmiteCheque1" alignment="0" min="-2" pref="122" max="-2" attributes="1"/>
+                  <Component id="ckbEmiteCheque" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDescripcion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDescripcion" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtDescripcion1" min="-2" pref="19" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rbtnPorcentual" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rbtnFijoPesos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Component id="lblValor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="10" max="32767" attributes="0"/>
+              <Component id="ckbEmiteCheque" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="ckbEmiteCheque1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblDescripcion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblDescripcion.text"/>
+        <Property name="name" type="java.lang.String" value="lblDescripcion" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblValor">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblValor.text"/>
+        <Property name="name" type="java.lang.String" value="lblValor" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescripcion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="txtDescripcion.text"/>
+        <Property name="name" type="java.lang.String" value="txtDescripcion" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDescripcion1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="name" type="java.lang.String" value="txtDescripcion1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbtnPorcentual">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="rbtnPorcentual.background"/>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="btnGrupo"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="rbtnPorcentual.text"/>
+        <Property name="name" type="java.lang.String" value="rbtnPorcentual" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbtnFijoPesos">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="rbtnFijoPesos.background"/>
+        <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+          <ComponentRef name="btnGrupo"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="rbtnFijoPesos.text"/>
+        <Property name="name" type="java.lang.String" value="rbtnFijoPesos" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckbEmiteCheque">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="ckbEmiteCheque.background"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="ckbEmiteCheque.text"/>
+        <Property name="name" type="java.lang.String" value="ckbEmiteCheque" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckbEmiteCheque1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="ckbEmiteCheque1.background"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ckbEmiteCheque1.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="ckbEmiteCheque1.text"/>
+        <Property name="name" type="java.lang.String" value="ckbEmiteCheque1" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

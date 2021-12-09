@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlCabeceraBotonera1" pref="237" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="xtpUsuario" pref="217" max="32767" attributes="2"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="pnlCabeceraBotonera1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="xtpUsuario" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="142" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="ar.gov.cjpmv.prestamos.gui.usuarios.PnlCabeceraBotonera" name="pnlCabeceraBotonera1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="pnlCabeceraBotonera1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpUsuario">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" resourceKey="xtpUsuario.toolTipText"/>
+        <Property name="font" type="java.awt.Font" resourceKey="xtpUsuario.font"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="xtpUsuario.icon"/>
+        <Property name="mnemonic" type="int" value="65"/>
+        <Property name="name" type="java.lang.String" value="xtpUsuario" noResource="true"/>
+        <Property name="title" type="java.lang.String" resourceKey="xtpUsuario.title"/>
+      </Properties>
+      <SubComponents>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhNuevoUsuario">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhNuevoUsuario.text"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhNuevoUsuario.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhNuevoUsuario.font"/>
+            <Property name="name" type="java.lang.String" value="xhNuevoUsuario" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhEditarUsuario">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhEditarUsuario.text"/>
+            <Property name="actionCommand" type="java.lang.String" resourceKey="xhEditarUsuario.actionCommand"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhEditarUsuario.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhEditarUsuario.font"/>
+            <Property name="name" type="java.lang.String" value="xhEditarUsuario" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXHyperlink" name="xhCambiarContrasenia">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xhCambiarContrasenia.text"/>
+            <Property name="actionCommand" type="java.lang.String" resourceKey="xhCambiarContrasenia.actionCommand"/>
+            <Property name="clickedColor" type="java.awt.Color" resourceKey="xhCambiarContrasenia.clickedColor"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xhCambiarContrasenia.font"/>
+            <Property name="name" type="java.lang.String" value="xhCambiarContrasenia" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

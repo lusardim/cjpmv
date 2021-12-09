@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="FondoGris"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xlblLegajo" min="-2" max="-2" attributes="1"/>
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="1">
+                                  <EmptySpace pref="1" max="-2" attributes="0"/>
+                                  <Component id="xlblApellidoRazon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="xlblTipoDocumento" min="-2" max="-2" attributes="1"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lblLegajo" pref="185" max="32767" attributes="2"/>
+                          <Component id="lblTipoDocumento" alignment="0" pref="185" max="32767" attributes="2"/>
+                          <Component id="lblApellidoRazon" alignment="0" pref="185" max="32767" attributes="2"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xlblNumeroDocumento" alignment="1" pref="130" max="32767" attributes="1"/>
+                          <Component id="xlblCui" alignment="1" pref="130" max="32767" attributes="1"/>
+                          <Component id="xlblEstado" alignment="0" min="-2" pref="109" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lblEstado" pref="164" max="32767" attributes="2"/>
+                          <Component id="lblNumeroDocumento" alignment="1" pref="164" max="32767" attributes="2"/>
+                          <Component id="lblCui" alignment="1" pref="164" max="32767" attributes="2"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="xtsTitulo" min="-2" max="-2" attributes="1"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="651" max="32767" attributes="0"/>
+              <Component id="btnEliminar" min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" max="-2" attributes="0">
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" max="-2" attributes="0">
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Component id="xtsTitulo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLegajo" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="xlblLegajo" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                          <Component id="lblTipoDocumento" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="xlblTipoDocumento" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="xlblApellidoRazon" alignment="3" min="-2" max="-2" attributes="1"/>
+                          <Component id="lblApellidoRazon" alignment="3" min="-2" pref="13" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="btnEliminar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" max="-2" attributes="0">
+                              <Component id="xlblCui" min="-2" pref="14" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="xlblNumeroDocumento" min="-2" pref="17" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="xlblEstado" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" max="-2" attributes="0">
+                              <Component id="lblCui" min="-2" pref="14" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblNumeroDocumento" min="-2" pref="14" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="lblEstado" min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsTitulo">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+        <Property name="font" type="java.awt.Font" resourceKey="xtsTitulo.font"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="xtsTitulo.icon"/>
+        <Property name="name" type="java.lang.String" value="xtsTitulo" noResource="true"/>
+        <Property name="title" type="java.lang.String" resourceKey="xtsTitulo.title"/>
+      </Properties>
+    </Component>
+    <Component class="org.jdesktop.swingx.JXLabel" name="xlblLegajo">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="xlblLegajo.text"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="xlblLegajo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="org.jdesktop.swingx.JXLabel" name="xlblTipoDocumento">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="xlblTipoDocumento.text"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="xlblTipoDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="org.jdesktop.swingx.JXLabel" name="xlblApellidoRazon">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="xlblApellidoRazon.text"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="xlblApellidoRazon" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="org.jdesktop.swingx.JXLabel" name="xlblEstado">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="xlblEstado.text"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="xlblEstado" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="org.jdesktop.swingx.JXLabel" name="xlblNumeroDocumento">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="xlblNumeroDocumento.text"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="xlblNumeroDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="org.jdesktop.swingx.JXLabel" name="xlblCui">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="xlblCui.text"/>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="name" type="java.lang.String" value="xlblCui" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLegajo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblLegajo.text"/>
+        <Property name="name" type="java.lang.String" value="lblLegajo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTipoDocumento">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblTipoDocumento.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblTipoDocumento.text"/>
+        <Property name="name" type="java.lang.String" value="lblTipoDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblApellidoRazon">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblApellidoRazon.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblApellidoRazon.text"/>
+        <Property name="name" type="java.lang.String" value="lblApellidoRazon" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCui">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblCui.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblCui.text"/>
+        <Property name="name" type="java.lang.String" value="lblCui" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNumeroDocumento">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblNumeroDocumento.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblNumeroDocumento.text"/>
+        <Property name="name" type="java.lang.String" value="lblNumeroDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEstado">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblEstado.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblEstado.text"/>
+        <Property name="name" type="java.lang.String" value="lblEstado" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnEliminar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="btnEliminar.icon"/>
+        <Property name="text" type="java.lang.String" resourceKey="btnEliminar.text"/>
+        <Property name="name" type="java.lang.String" value="btnEliminar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

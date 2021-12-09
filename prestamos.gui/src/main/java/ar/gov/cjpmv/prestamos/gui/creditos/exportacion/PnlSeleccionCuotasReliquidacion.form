@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="757" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="469" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel1.background"/>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="pnlResultadoLiquidacion" alignment="0" pref="733" max="32767" attributes="0"/>
+                      <Component id="pnlSeleccionFecha" alignment="0" max="32767" attributes="0"/>
+                      <Component id="xtsTituloParametroBusqueda" alignment="0" pref="733" max="32767" attributes="2"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="xtsTituloParametroBusqueda" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlSeleccionFecha" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlResultadoLiquidacion" pref="311" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsTituloParametroBusqueda">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xtsTituloParametroBusqueda.foreground"/>
+            <Property name="font" type="java.awt.Font" resourceKey="xtsTituloParametroBusqueda.font"/>
+            <Property name="name" type="java.lang.String" value="xtsTituloParametroBusqueda" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtsTituloParametroBusqueda.title"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="pnlSeleccionFecha">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="pnlSeleccionFecha.background"/>
+            <Property name="name" type="java.lang.String" value="pnlSeleccionFecha" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblTituloSeleccionFecha" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblGenerado" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblMes" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="cboSeleccionMes" pref="193" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblAnio" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="ycSeleccionAnio" pref="233" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="pbGenerado" alignment="0" pref="479" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblPorcentaje" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btnGenerarLiquidacion" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="ycSeleccionAnio" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblTituloSeleccionFecha" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnGenerarLiquidacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAnio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblMes" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cboSeleccionMes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="pbGenerado" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPorcentaje" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblGenerado" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="20" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblTituloSeleccionFecha">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblTituloSeleccionFecha.text"/>
+                <Property name="name" type="java.lang.String" value="lblTituloSeleccionFecha" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMes">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblMes.text"/>
+                <Property name="name" type="java.lang.String" value="lblMes" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblAnio">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblAnio.text"/>
+                <Property name="name" type="java.lang.String" value="lblAnio" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="com.toedter.calendar.JYearChooser" name="ycSeleccionAnio">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="ycSeleccionAnio" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnGenerarLiquidacion">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="btnGenerarLiquidacion.text"/>
+                <Property name="name" type="java.lang.String" value="btnGenerarLiquidacion" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cboSeleccionMes">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cboSeleccionMes" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblGenerado">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblGenerado.text"/>
+                <Property name="name" type="java.lang.String" value="lblGenerado" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JProgressBar" name="pbGenerado">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="pbGenerado" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblPorcentaje">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lblPorcentaje.text"/>
+                <Property name="name" type="java.lang.String" value="lblPorcentaje" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="ar.gov.cjpmv.prestamos.gui.comunes.PnlResultadoBusquedaView" name="pnlResultadoLiquidacion">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlResultadoLiquidacion" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

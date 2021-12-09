@@ -1,0 +1,1 @@
+Para imprimir un cheque, colocar la hoja a la altura de la cinta de la impresora, dejarle a la hoja que sobresalga de la linea de la cinta un borde de 0,1 cm, para que salga bien.

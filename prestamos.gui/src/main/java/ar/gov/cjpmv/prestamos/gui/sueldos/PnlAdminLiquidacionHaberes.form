@@ -1,0 +1,393 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="2"/>
+                  <Component id="lblTituloPnlDcha" alignment="0" pref="641" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="lblTituloPnlDcha" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTituloPnlDcha">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="lblTituloPnlDcha.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblTituloPnlDcha.foreground"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="lblTituloPnlDcha.icon"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblTituloPnlDcha.text"/>
+        <Property name="name" type="java.lang.String" value="lblTituloPnlDcha" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel1.background"/>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="178" max="-2" attributes="0"/>
+                          <Component id="lblMes" min="-2" pref="36" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="ycAnio" min="-2" pref="121" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="pnlParametrosBusqueda1" max="32767" attributes="2"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="pnlParametrosBusqueda" max="32767" attributes="2"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="lblMes" pref="20" max="32767" attributes="1"/>
+                      <Component id="ycAnio" alignment="0" pref="20" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="pnlParametrosBusqueda1" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlParametrosBusqueda" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="188" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlParametrosBusqueda1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlParametrosBusqueda1" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" pref="601" max="32767" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblEjerciciosContables" min="-2" pref="199" max="-2" attributes="2"/>
+                              <EmptySpace pref="117" max="32767" attributes="0"/>
+                              <Component id="pnlBotonera" min="-2" pref="285" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblEjerciciosContables" alignment="0" max="32767" attributes="1"/>
+                          <Component id="pnlBotonera" alignment="0" pref="29" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="118" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblLiquidaciones">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="3" rowCount="4">
+                        <Column editable="true" title="Codigo" type="java.lang.Object"/>
+                        <Column editable="true" title="Descripci&#xf3;n" type="java.lang.Object"/>
+                        <Column editable="true" title="Tipo" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="tblLiquidaciones" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lblEjerciciosContables">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblEjerciciosContables.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblEjerciciosContables.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblEjerciciosContables.text"/>
+                <Property name="name" type="java.lang.String" value="lblEjerciciosContables" noResource="true"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="lblEjerciciosContables.AccessibleContext.accessibleName"/>
+              </AccessibilityProperties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="pnlBotonera">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="pnlBotonera" noResource="true"/>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout">
+                <Property name="alignment" type="int" value="2"/>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblVerDetalle">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="lblVerDetalle.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="lblVerDetalle.foreground"/>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="lblVerDetalle.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="lblVerDetalle.text"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="lblVerDetalle" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblAgregar">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="lblAgregar.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="lblAgregar.foreground"/>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="lblAgregar.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="lblAgregar.text"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="lblAgregar" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblEditar">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="lblEditar.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="lblEditar.foreground"/>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="lblEditar.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="lblEditar.text"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="lblEditar" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblEliminar">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="lblEliminar.font"/>
+                    <Property name="foreground" type="java.awt.Color" resourceKey="lblEliminar.foreground"/>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="lblEliminar.icon"/>
+                    <Property name="text" type="java.lang.String" resourceKey="lblEliminar.text"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="lblEliminar" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlParametrosBusqueda">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlParametrosBusqueda" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xtsTitulo" alignment="0" pref="601" max="32767" attributes="2"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblDescripcion" min="-2" pref="130" max="-2" attributes="1"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="cbxTipoLiquidacion" min="-2" pref="161" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblMes1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="mchMes" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="btnBuscar" min="-2" pref="53" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnBuscarImpresion" min="-2" pref="53" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="xtsTitulo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lblDescripcion" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <Component id="cbxTipoLiquidacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="mchMes" pref="29" max="32767" attributes="1"/>
+                                  <Component id="lblMes1" alignment="0" pref="29" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Component id="btnBuscar" min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="btnBuscarImpresion" min="-2" pref="42" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnBuscar">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="btnBuscar.icon"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="btnBuscar" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsTitulo">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" resourceKey="xtsTitulo.foreground"/>
+                <Property name="font" type="java.awt.Font" resourceKey="xtsTitulo.font"/>
+                <Property name="name" type="java.lang.String" value="xtsTitulo" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtsTitulo.title"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cbxTipoLiquidacion">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="6">
+                    <StringItem index="0" value="Activos - Normal"/>
+                    <StringItem index="1" value="Activos - SAC"/>
+                    <StringItem index="2" value="Jubilados - Normal"/>
+                    <StringItem index="3" value="Jubilados - SAC"/>
+                    <StringItem index="4" value="Pensionados - Normal"/>
+                    <StringItem index="5" value="Pensionados - SAC"/>
+                  </StringArray>
+                </Property>
+                <Property name="name" type="java.lang.String" value="cbxTipoLiquidacion" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="com.toedter.calendar.JMonthChooser" name="mchMes">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="mchMes" noResource="true"/>
+                <Property name="yearChooser" type="com.toedter.calendar.JYearChooser" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="null"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMes1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblMes1.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblMes1.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblMes1.text"/>
+                <Property name="name" type="java.lang.String" value="lblMes1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnBuscarImpresion">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="btnBuscarImpresion.icon"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="btnBuscarImpresion" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="com.toedter.calendar.JYearChooser" name="ycAnio">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="ycAnio" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMes">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="lblMes.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="lblMes.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblMes.text"/>
+            <Property name="name" type="java.lang.String" value="lblMes" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

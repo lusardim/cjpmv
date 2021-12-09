@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="btnGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="FondoBlanco"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[942, 526]"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="pnlGrisCreditos" alignment="0" max="32767" attributes="2"/>
+                  <Component id="xtsTituloSub1" alignment="0" min="-2" max="-2" attributes="2"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="xtsTituloSub1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="pnlGrisCreditos" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="org.jdesktop.swingx.JXTitledSeparator" name="xtsTituloSub1">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="xtsTituloSub1.foreground"/>
+        <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+        <Property name="name" type="java.lang.String" value="xtsTituloSub1" noResource="true"/>
+        <Property name="title" type="java.lang.String" resourceKey="xtsTituloSub1.title"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="pnlGrisCreditos">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="pnlGrisCreditos.background"/>
+        <Property name="name" type="java.lang.String" value="pnlGrisCreditos" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="tbpCreditos" pref="922" max="32767" attributes="2"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="xlblSistema" min="-2" max="-2" attributes="0"/>
+                                      <Component id="xlblFechaInicio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="xlblMontoTotal" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="xlblInteresAnual" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="xlblNumeroCredito" alignment="0" min="-2" max="-2" attributes="1"/>
+                                      <Component id="xlblViaCobro" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="cbxViaCobro" pref="304" max="32767" attributes="2"/>
+                                              <Component id="dtcFechaInicio" pref="304" max="32767" attributes="2"/>
+                                              <Component id="txtNumeroCredito" alignment="0" pref="304" max="32767" attributes="2"/>
+                                              <Component id="txtMontoTotal" alignment="1" pref="304" max="32767" attributes="2"/>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="txtInteresAnual" pref="203" max="32767" attributes="2"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="ckbInteresAcumulativo" min="-2" pref="83" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Component id="cbxSistema" pref="305" max="32767" attributes="2"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="xlblTipo" pref="107" max="32767" attributes="1"/>
+                                                  <EmptySpace min="81" pref="81" max="81" attributes="0"/>
+                                              </Group>
+                                              <Component id="xlblSueldoAlDia" alignment="0" min="-2" max="-2" attributes="1"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="xlblDiaVencimiento" alignment="0" max="32767" attributes="1"/>
+                                                  <Component id="xlblCantidadCuotas" alignment="0" max="32767" attributes="1"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="dtcFechaVencimiento" pref="275" max="32767" attributes="2"/>
+                                              <Component id="spfCantidadCuotas" alignment="0" pref="275" max="32767" attributes="1"/>
+                                              <Component id="cbxTipoCredito" alignment="0" pref="275" max="32767" attributes="2"/>
+                                              <Component id="txtSueldoDia" alignment="0" pref="275" max="32767" attributes="2"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="btnGenerarCuotas" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rbtnImprimirF01" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rbtnImprimirF02" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="ckbImprimirRecibo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="xlblMontoAPagar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblMontoAPagar" min="-2" pref="132" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="xlblMontoEntrega" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblMontoEntregado" min="-2" pref="132" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txtNumeroCredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="xlblTipo" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="cbxTipoCredito" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="xlblNumeroCredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="xlblMontoTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMontoTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="xlblCantidadCuotas" alignment="3" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="xlblInteresAnual" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                              <Component id="txtInteresAnual" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="xlblDiaVencimiento" alignment="3" min="-2" max="-2" attributes="1"/>
+                              <Component id="ckbInteresAcumulativo" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="xlblFechaInicio" max="32767" attributes="1"/>
+                                  <Component id="dtcFechaInicio" alignment="0" pref="18" max="32767" attributes="1"/>
+                              </Group>
+                              <Component id="xlblSueldoAlDia" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cbxViaCobro" alignment="3" min="-2" pref="19" max="-2" attributes="1"/>
+                              <Component id="xlblViaCobro" alignment="3" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="cbxSistema" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <Component id="btnGenerarCuotas" alignment="3" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <Component id="xlblSistema" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="spfCantidadCuotas" min="-2" pref="17" max="-2" attributes="1"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="dtcFechaVencimiento" min="-2" max="-2" attributes="1"/>
+                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          <Component id="txtSueldoDia" min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Component id="tbpCreditos" pref="223" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="rbtnImprimirF01" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbtnImprimirF02" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ckbImprimirRecibo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="xlblMontoEntrega" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="lblMontoEntregado" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="xlblMontoAPagar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblMontoAPagar" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblInteresAnual">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblInteresAnual.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblInteresAnual.text"/>
+            <Property name="name" type="java.lang.String" value="xlblInteresAnual" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblMontoTotal">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblMontoTotal.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblMontoTotal.text"/>
+            <Property name="name" type="java.lang.String" value="xlblMontoTotal" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblCantidadCuotas">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblCantidadCuotas.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblCantidadCuotas.text"/>
+            <Property name="name" type="java.lang.String" value="xlblCantidadCuotas" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtSueldoDia">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColroCampo"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Property name="color" resourceKey="txtSueldoDia.border.lineColor"/>
+                </LineBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="txtSueldoDia" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblNumeroCredito">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblNumeroCredito.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblNumeroCredito.text"/>
+            <Property name="name" type="java.lang.String" value="xlblNumeroCredito" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbxTipoCredito">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Personal"/>
+                <StringItem index="1" value="Asistencial"/>
+                <StringItem index="2" value="Hipotecario"/>
+              </StringArray>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Property name="color" resourceKey="cbxTipoCredito.border.lineColor"/>
+                </LineBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cbxTipoCredito" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblTipo">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblTipo.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblTipo.text"/>
+            <Property name="name" type="java.lang.String" value="xlblTipo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblFechaInicio">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblFechaInicio.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblFechaInicio.text"/>
+            <Property name="name" type="java.lang.String" value="xlblFechaInicio" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblDiaVencimiento">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblDiaVencimiento.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblDiaVencimiento.text"/>
+            <Property name="name" type="java.lang.String" value="xlblDiaVencimiento" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.components.JSpinField" name="spfCantidadCuotas">
+          <Properties>
+            <Property name="minimum" type="int" value="1"/>
+            <Property name="name" type="java.lang.String" value="spfCantidadCuotas" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JTabbedPane" name="tbpCreditos">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="tbpCreditos" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="pnlCuotas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="pnlCuotas.background"/>
+                <Property name="name" type="java.lang.String" value="pnlCuotas" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Cuotas">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="pnlCuotas.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="sllpCuotas" pref="897" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="sllpCuotas" pref="166" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="sllpCuotas">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="sllpCuotas" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="tblCuotas">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="7" rowCount="10">
+                            <Column editable="true" title="N&#xba; de Cuota" type="java.lang.Object"/>
+                            <Column editable="true" title="Vencimiento Desde" type="java.lang.Object"/>
+                            <Column editable="true" title="Vencimiento Hasta" type="java.lang.Object"/>
+                            <Column editable="true" title="Otros Conceptos" type="java.lang.Object"/>
+                            <Column editable="true" title="Interes" type="java.lang.Object"/>
+                            <Column editable="true" title="Capital" type="java.lang.Object"/>
+                            <Column editable="true" title="Valor Total" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="tblCuotas" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pnlConceptosTipoCredito">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="pnlConceptosTipoCredito.background"/>
+                <Property name="name" type="java.lang.String" value="pnlConceptosTipoCredito" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Conceptos del Tipo de Cr&#xe9;dito">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="pnlConceptosTipoCredito.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="sllpConceptosTipoCredito" pref="897" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="sllpConceptosTipoCredito" pref="173" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="sllpConceptosTipoCredito">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="sllpConceptosTipoCredito" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="tblConceptosTipoCredito">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="5" rowCount="10">
+                            <Column editable="true" title="Aplicado" type="java.lang.Boolean"/>
+                            <Column editable="true" title="Detalle" type="java.lang.Object"/>
+                            <Column editable="true" title="Valor" type="java.lang.Object"/>
+                            <Column editable="true" title="Imputado a Cuotas" type="java.lang.Boolean"/>
+                            <Column editable="true" title="Emite Cheque" type="java.lang.Boolean"/>
+                          </Table>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="tblConceptosTipoCredito" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="pnlConceptosParticulares">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="pnlConceptosParticulares.background"/>
+                <Property name="name" type="java.lang.String" value="pnlConceptosParticulares" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Conceptos Particulares">
+                    <Property name="tabTitle" type="java.lang.String" resourceKey="pnlConceptosParticulares.TabConstraints.tabTitle"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="sllpConceptosParticulares" pref="897" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="sllpConceptosParticulares" pref="173" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="sllpConceptosParticulares">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="sllpConceptosParticulares" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="tblConceptosParticulares">
+                      <Properties>
+                        <Property name="foreground" type="java.awt.Color" resourceKey="tblConceptosParticulares.foreground"/>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="2" rowCount="10">
+                            <Column editable="true" title="Descripci&#xf3;n" type="java.lang.Object"/>
+                            <Column editable="true" title="Monto" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="name" type="java.lang.String" value="tblConceptosParticulares" noResource="true"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnGenerarCuotas">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="text" type="java.lang.String" resourceKey="btnGenerarCuotas.text"/>
+            <Property name="name" type="java.lang.String" value="btnGenerarCuotas" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbxSistema">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Directo"/>
+                <StringItem index="1" value="Franc&#xe9;s"/>
+              </StringArray>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Property name="color" resourceKey="cbxSistema.border.lineColor"/>
+                </LineBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cbxSistema" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblSistema">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblSistema.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblSistema.text"/>
+            <Property name="name" type="java.lang.String" value="xlblSistema" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblMontoEntrega">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblMontoEntrega.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblMontoEntrega.text"/>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+            <Property name="name" type="java.lang.String" value="xlblMontoEntrega" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblViaCobro">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblViaCobro.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblViaCobro.text"/>
+            <Property name="name" type="java.lang.String" value="xlblViaCobro" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbxViaCobro">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Por Dep&#xf3;sito Bancario"/>
+                <StringItem index="1" value="Por Municipalidad"/>
+                <StringItem index="2" value="Por Liquidaci&#xf3;n de Haberes"/>
+              </StringArray>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Property name="color" resourceKey="cbxViaCobro.border.lineColor"/>
+                </LineBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="cbxViaCobro" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtInteresAnual">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Property name="color" resourceKey="txtInteresAnual.border.lineColor"/>
+                </LineBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="txtInteresAnual" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNumeroCredito">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Property name="color" resourceKey="txtNumeroCredito.border.lineColor"/>
+                </LineBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="txtNumeroCredito" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtMontoTotal">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true">
+                  <Property name="color" resourceKey="txtMontoTotal.border.lineColor"/>
+                </LineBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="txtMontoTotal" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="dtcFechaInicio">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="name" type="java.lang.String" value="dtcFechaInicio" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblSueldoAlDia">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblSueldoAlDia.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblSueldoAlDia.text"/>
+            <Property name="name" type="java.lang.String" value="xlblSueldoAlDia" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMontoEntregado">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorCampo"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblMontoEntregado.text"/>
+            <Property name="name" type="java.lang.String" value="lblMontoEntregado" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="ckbImprimirRecibo">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="FondoGris"/>
+            <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+            <Property name="text" type="java.lang.String" resourceKey="ckbImprimirRecibo.text"/>
+            <Property name="name" type="java.lang.String" value="ckbImprimirRecibo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="org.jdesktop.swingx.JXLabel" name="xlblMontoAPagar">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="xlblMontoAPagar.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="xlblMontoAPagar.text"/>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+            <Property name="name" type="java.lang.String" value="xlblMontoAPagar" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMontoAPagar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="lblMontoAPagar.foreground"/>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblMontoAPagar.text"/>
+            <Property name="name" type="java.lang.String" value="lblMontoAPagar" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnImprimirF01">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="rbtnImprimirF01.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="btnGroup"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" resourceKey="rbtnImprimirF01.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="rbtnImprimirF01.text"/>
+            <Property name="name" type="java.lang.String" value="rbtnImprimirF01" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="rbtnImprimirF02">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="rbtnImprimirF02.background"/>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="btnGroup"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" resourceKey="rbtnImprimirF02.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="rbtnImprimirF02.text"/>
+            <Property name="name" type="java.lang.String" value="rbtnImprimirF02" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="ckbInteresAcumulativo">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="ckbInteresAcumulativo.background"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="ckbInteresAcumulativo.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="ckbInteresAcumulativo.text"/>
+            <Property name="name" type="java.lang.String" value="ckbInteresAcumulativo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="dtcFechaVencimiento">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" resourceKey="dtcFechaVencimiento.foreground"/>
+            <Property name="font" type="java.awt.Font" resourceKey="dtcFechaVencimiento.font"/>
+            <Property name="name" type="java.lang.String" value="dtcFechaVencimiento" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

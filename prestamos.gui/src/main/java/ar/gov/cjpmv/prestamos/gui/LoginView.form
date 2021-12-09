@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="DLogin.title"/>
+    <Property name="foreground" type="java.awt.Color" resourceKey="DLogin.foreground"/>
+    <Property name="name" type="java.lang.String" value="DLogin" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlCuadroLogin" alignment="0" min="-2" pref="424" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlCuadroLogin" alignment="0" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlCuadroLogin">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="FondoCeleste"/>
+        <Property name="name" type="java.lang.String" value="pnlCuadroLogin" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                          <Component id="lblMensaje" min="-2" max="-2" attributes="1"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="pnlUsuarioContrasenia" max="32767" attributes="1"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
+                  <Component id="btnIngresar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="192" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="lblBannerLogin" alignment="1" max="32767" attributes="1"/>
+                      <Component id="lblFo" alignment="1" max="32767" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="lblBannerLogin" min="-2" pref="97" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="pnlUsuarioContrasenia" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblMensaje" min="-2" pref="12" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnIngresar" pref="26" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Component id="lblFo" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="btnIngresar">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="btnIngresar.text"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="btnIngresar" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblMensaje">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="TextoMensaje"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="lblMensaje.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="lblMensaje.text"/>
+            <Property name="horizontalTextPosition" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="lblMensaje" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="pnlUsuarioContrasenia">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="FondoCeleste"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Acceso al Sistema">
+                  <Property name="titleX" resourceKey="pnlUsuarioContrasenia.border.title"/>
+                  <Property name="font" resourceKey="tituloBarrita"/>
+                  <Property name="color" resourceKey="pnlUsuarioContrasenia.border.titleColor"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+            <Property name="font" type="java.awt.Font" resourceKey="TituloBarrita"/>
+            <Property name="name" type="java.lang.String" value="pnlUsuarioContrasenia" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="59" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblContrasenia" alignment="0" min="-2" max="-2" attributes="1"/>
+                          <Component id="lblUsuario" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtUsuario" alignment="0" max="32767" attributes="1"/>
+                          <Component id="pasContrasenia" alignment="0" min="-2" pref="176" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="pasContrasenia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblContrasenia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="23" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblUsuario">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblUsuario.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblUsuario.text"/>
+                <Property name="name" type="java.lang.String" value="lblUsuario" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtUsuario">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="ContenidoCampo"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorContenidoCampo"/>
+                <Property name="name" type="java.lang.String" value="txtUsuario" noResource="true"/>
+                <Property name="selectionColor" type="java.awt.Color" resourceKey="txtUsuario.selectionColor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="pasContrasenia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="ContenidoCampo"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="ColorContenidoCampo"/>
+                <Property name="name" type="java.lang.String" value="pasContrasenia" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblContrasenia">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblContrasenia.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblContrasenia.text"/>
+                <Property name="name" type="java.lang.String" value="lblContrasenia" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="lblBannerLogin">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="lblBannerLogin.icon"/>
+            <Property name="name" type="java.lang.String" value="lblBannerLogin" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lblFo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="lblFo.icon"/>
+            <Property name="name" type="java.lang.String" value="lblFo" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

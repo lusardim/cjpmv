@@ -1,0 +1,198 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="Form.background"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlCabeceraBotoneraContable" alignment="0" pref="263" max="32767" attributes="1"/>
+          <Component id="scpListaBotonera" alignment="0" max="32767" attributes="1"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="pnlCabeceraBotoneraContable" min="-2" pref="49" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="scpListaBotonera" pref="355" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="ar.gov.cjpmv.prestamos.gui.contable.PnlCabeceraBotoneraContable" name="pnlCabeceraBotoneraContable">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="pnlCabeceraBotoneraContable" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="scpListaBotonera">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="scpListaBotonera" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlBotonera">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="pnlBotonera.background"/>
+            <Property name="name" type="java.lang.String" value="pnlBotonera" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="xtpEjercicioContable" alignment="1" pref="241" max="32767" attributes="1"/>
+                          <Component id="xtpPlanCuentas" alignment="0" pref="241" max="32767" attributes="1"/>
+                          <Component id="xtpPlanCuentas1" alignment="1" pref="241" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="xtpEjercicioContable" min="-2" pref="71" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="xtpPlanCuentas" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="xtpPlanCuentas1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="93" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpPlanCuentas">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="xtpPlanCuentas.background"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="xtpPlanCuentas.icon"/>
+                <Property name="name" type="java.lang.String" value="xtpPlanCuentas" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtpPlanCuentas.title"/>
+              </Properties>
+              <SubComponents>
+                <Component class="org.jdesktop.swingx.JXHyperlink" name="xhAdministracionPlanCuenta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="xhAdministracionPlanCuenta.text"/>
+                    <Property name="clickedColor" type="java.awt.Color" resourceKey="xhAdministracionPlanCuenta.clickedColor"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="xhAdministracionPlanCuenta" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhAdministracionPlanCuentaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="org.jdesktop.swingx.JXHyperlink" name="xhReportePlanCuenta">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="xhReportePlanCuenta.text"/>
+                    <Property name="clickedColor" type="java.awt.Color" resourceKey="xhReportePlanCuenta.clickedColor"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="xhReportePlanCuenta" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpEjercicioContable">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="xtpEjercicioContable.icon"/>
+                <Property name="name" type="java.lang.String" value="xtpEjercicioContable" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtpEjercicioContable.title"/>
+              </Properties>
+              <SubComponents>
+                <Component class="org.jdesktop.swingx.JXHyperlink" name="xhAdministracionEjercicio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="xhAdministracionEjercicio.text"/>
+                    <Property name="clickedColor" type="java.awt.Color" resourceKey="xhAdministracionEjercicio.clickedColor"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="xhAdministracionEjercicio" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhAdministracionEjercicioActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpPlanCuentas1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" resourceKey="xtpPlanCuentas1.background"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="xtpPlanCuentas1.icon"/>
+                <Property name="name" type="java.lang.String" value="xtpPlanCuentas1" noResource="true"/>
+                <Property name="title" type="java.lang.String" resourceKey="xtpPlanCuentas1.title"/>
+              </Properties>
+              <SubComponents>
+                <Component class="org.jdesktop.swingx.JXHyperlink" name="xhAsientoApertura">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="xhAsientoApertura.text"/>
+                    <Property name="clickedColor" type="java.awt.Color" resourceKey="xhAsientoApertura.clickedColor"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="xhAsientoApertura" noResource="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhAsientoAperturaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="org.jdesktop.swingx.JXHyperlink" name="xhAsientoCierre">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="xhAsientoCierre.text"/>
+                    <Property name="clickedColor" type="java.awt.Color" resourceKey="xhAsientoCierre.clickedColor"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="xhAsientoCierre" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="org.jdesktop.swingx.JXHyperlink" name="xhAsientoContable">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="xhAsientoContable.text"/>
+                    <Property name="clickedColor" type="java.awt.Color" resourceKey="xhAsientoContable.clickedColor"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="xhAsientoContable" noResource="true"/>
+                  </Properties>
+                </Component>
+                <Component class="org.jdesktop.swingx.JXHyperlink" name="xhAsientoModelo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" resourceKey="xhAsientoModelo.text"/>
+                    <Property name="clickedColor" type="java.awt.Color" resourceKey="xhAsientoModelo.clickedColor"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de mano"/>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="xhAsientoModelo" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

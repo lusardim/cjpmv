@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="formulariof01" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.6105100000000012"/>
+	<property name="ireport.x" value="239"/>
+	<property name="ireport.y" value="41"/>
+	<field name="fechaOtorgamiento" class="java.lang.String"/>
+	<field name="montoCredito" class="java.lang.String"/>
+	<field name="mesesCuotas" class="java.lang.String"/>
+	<field name="interes" class="java.lang.String"/>
+	<field name="sistema" class="java.lang.String"/>
+	<field name="valorCuota" class="java.lang.String"/>
+	<field name="diaVencimiento" class="java.lang.String"/>
+	<field name="primerVencimiento" class="java.lang.String"/>
+	<field name="porcentajeImpuestoSellos" class="java.lang.String"/>
+	<field name="nombreSolicitante" class="java.lang.String"/>
+	<field name="domicilioSolicitante" class="java.lang.String"/>
+	<field name="legajoNumero" class="java.lang.String"/>
+	<field name="domicilioTelefonoCaja" class="java.lang.String"/>
+	<field name="nombreGarante" class="java.lang.String"/>
+	<field name="domicilioGarante" class="java.lang.String"/>
+	<field name="legajoGarante" class="java.lang.String"/>
+	<field name="numeroGarante" class="java.lang.String"/>
+	<field name="porcentajeFondoQuebranto" class="java.lang.String"/>
+	<field name="numeroDocumentoSolicitante" class="java.lang.String"/>
+	<field name="tipoDocumentoSolicitante" class="java.lang.String"/>
+	<field name="numeroDocumentoGarante" class="java.lang.String"/>
+	<field name="tipoDocumentoGarante" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="349" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="25" width="555" height="20" forecolor="#333333"/>
+				<box>
+					<pen lineWidth="0.75"/>
+					<topPen lineWidth="0.75"/>
+					<leftPen lineWidth="0.75"/>
+					<bottomPen lineWidth="0.75"/>
+					<rightPen lineWidth="0.75"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[RECIBO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-245" y="45" width="85" height="35"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="11"/>
+				</textElement>
+				<text><![CDATA[Victoria, (E. R.)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="82" y="104" width="473" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[RECIBI de la Caja de Jubilación y Pensiones Municipal de esta ciudad de Victoria, Entre Ríos, el préstamos de Pesos en  ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="221" y="152" width="82" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="394" y="135" width="86" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement x="221" y="139" width="82" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{valorCuota}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="456" y="140" width="95" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{primerVencimiento}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="171" y="121" width="108" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isUnderline="false" isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{montoCredito}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="456" y="153" width="95" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="171" y="134" width="108" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement x="405" y="122" width="75" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{mesesCuotas}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="57" y="281" width="184" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombreSolicitante}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-2" y="121" width="173" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[conformidad a mi solicitud, por la suma de]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="279" y="121" width="114" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[ El que devolveré en MESES ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="122" width="71" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[ con amortización]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-2" y="139" width="223" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[en cuotas mensuales y consecutivas de VALOR CUOTA ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="305" y="139" width="151" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[con vencimiento de la primera el día]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="82" y="176" width="473" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Autorizo Expresamente a la Caja de Jubilaciones y Pensiones Municipal de Victoria que de los importes que descuenta]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-2" y="193" width="555" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[de mis haberes mensuales la Municipalidad de Victoira, afecte en primer término al pago de la cuota arriba mencionada.]]></text>
+			</staticText>
+			<line>
+				<reportElement x="86" y="265" width="159" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="252" y="250" width="84" height="15" forecolor="#333333"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Firma del cónyuge:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="336" y="264" width="214" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="251" width="84" height="15" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Firma del solicitante:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="281" width="44" height="15" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Aclaración:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="46" y="295" width="199" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="252" y="279" width="55" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Documento:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="307" y="281" width="163" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{tipoDocumentoSolicitante}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="470" y="281" width="80" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numeroDocumentoSolicitante}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="307" y="296" width="243" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+		</band>
+	</title>
+	<detail>
+		<band height="62" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="57" y="27" width="184" height="13"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombreGarante}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="210" height="15" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Firma del Fiador Total, Solidario y Principal Pagador: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="210" y="13" width="340" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="252" y="24" width="55" height="17" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Documento:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="307" y="41" width="243" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="46" y="40" width="199" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dotted"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="26" width="44" height="15" forecolor="#333333"/>
+				<textElement textAlignment="Justified" verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Aclaración:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="307" y="27" width="163" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{tipoDocumentoGarante}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="470" y="27" width="80" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numeroDocumentoGarante}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="50" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="68" y="24" width="289" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{fechaOtorgamiento}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="24" width="68" height="14" forecolor="#333333"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Victoria, (E. R.)]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

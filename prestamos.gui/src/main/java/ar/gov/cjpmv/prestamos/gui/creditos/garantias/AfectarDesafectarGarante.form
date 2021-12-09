@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel1.background"/>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="btnGuardar" min="-2" pref="109" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnCancelar" min="-2" pref="115" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jPanel2" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jPanel4" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="btnGuardar" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="btnCancelar" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jPanel2.background"/>
+            <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblDescripcion" min="-2" pref="173" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblDescripcion2" min="-2" pref="79" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblApellido" pref="338" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblDescripcion1" min="-2" pref="79" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lblLegajo" pref="338" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="lblDescripcion3" alignment="1" max="32767" attributes="1"/>
+                                  <Component id="lblDescripcion4" alignment="1" pref="62" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblCuil" pref="211" max="32767" attributes="2"/>
+                                  <Component id="lblNombres" alignment="0" pref="211" max="32767" attributes="2"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblDescripcion" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblDescripcion1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblLegajo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescripcion3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCuil" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblDescripcion2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblApellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescripcion4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNombres" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblDescripcion">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion.foreground"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="lblDescripcion.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion1.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion1.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion1.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion1" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion2.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion2.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion2.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion2" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion3.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion3.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion3.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblLegajo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblLegajo.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblLegajo.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblLegajo.text"/>
+                <Property name="name" type="java.lang.String" value="lblLegajo" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblApellido">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblApellido.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblApellido.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblApellido.text"/>
+                <Property name="name" type="java.lang.String" value="lblApellido" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCuil">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblCuil.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblCuil.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblCuil.text"/>
+                <Property name="name" type="java.lang.String" value="lblCuil" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion4.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion4.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion4.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion4" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNombres">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblNombres.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblNombres.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblNombres.text"/>
+                <Property name="name" type="java.lang.String" value="lblNombres" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jPanel3.background"/>
+            <Property name="name" type="java.lang.String" value="jPanel3" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblDescripcion5" alignment="0" min="-2" pref="173" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblDescripcion6" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="lblDescripcion7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblCuotasVencidas" pref="203" max="32767" attributes="2"/>
+                                  <Component id="lblNumeroCredito" alignment="0" pref="203" max="32767" attributes="2"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="lblDescripcion8" max="32767" attributes="1"/>
+                                  <Component id="lblDescripcion9" alignment="1" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblMontoAdeudado" pref="208" max="32767" attributes="2"/>
+                                  <Component id="lblMontoTotal" alignment="0" pref="208" max="32767" attributes="2"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblDescripcion5" pref="26" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblDescripcion6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNumeroCredito" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMontoTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescripcion8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblDescripcion7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblDescripcion9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCuotasVencidas" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblMontoAdeudado" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblDescripcion5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion5.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion5.foreground"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="lblDescripcion5.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion5.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion5" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion6.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion6.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion6.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion6" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion7.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion7.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion7.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion7" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion8.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion8.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion8.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion8" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblNumeroCredito">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblNumeroCredito.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblNumeroCredito.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblNumeroCredito.text"/>
+                <Property name="name" type="java.lang.String" value="lblNumeroCredito" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblCuotasVencidas">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblCuotasVencidas.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblCuotasVencidas.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblCuotasVencidas.text"/>
+                <Property name="name" type="java.lang.String" value="lblCuotasVencidas" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMontoTotal">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblMontoTotal.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblMontoTotal.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblMontoTotal.text"/>
+                <Property name="name" type="java.lang.String" value="lblMontoTotal" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblDescripcion9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblDescripcion9.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblDescripcion9.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblDescripcion9.text"/>
+                <Property name="name" type="java.lang.String" value="lblDescripcion9" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblMontoAdeudado">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblMontoAdeudado.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblMontoAdeudado.foreground"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblMontoAdeudado.text"/>
+                <Property name="name" type="java.lang.String" value="lblMontoAdeudado" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="jPanel4.background"/>
+            <Property name="name" type="java.lang.String" value="jPanel4" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="742" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblTituloSeleccionFecha1" min="-2" pref="393" max="-2" attributes="0"/>
+                          <EmptySpace pref="359" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="195" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblTituloSeleccionFecha1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="213" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblGarantes">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="name" type="java.lang.String" value="tblGarantes" noResource="true"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="lblTituloSeleccionFecha1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="lblTituloSeleccionFecha1.font"/>
+                <Property name="foreground" type="java.awt.Color" resourceKey="lblTituloSeleccionFecha1.foreground"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="lblTituloSeleccionFecha1.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="lblTituloSeleccionFecha1.text"/>
+                <Property name="name" type="java.lang.String" value="lblTituloSeleccionFecha1" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="btnGuardar">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="btnGuardar.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="btnGuardar.text"/>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[121, 23]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="btnGuardar" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[101, 23]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCancelar">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="btnCancelar.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="btnCancelar.text"/>
+            <Property name="name" type="java.lang.String" value="btnCancelar" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

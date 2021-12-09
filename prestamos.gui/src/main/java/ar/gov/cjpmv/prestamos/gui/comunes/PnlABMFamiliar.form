@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="ColorBlanco"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblCuil" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblTipoDocumento" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblApellido" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Component id="lblParentesco" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Component id="lblFechaInicioVinculo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="dtcInicioVinculo" pref="134" max="32767" attributes="2"/>
+                  <Component id="cbxParentesco" alignment="0" pref="134" max="32767" attributes="2"/>
+                  <Component id="txtApellido" alignment="0" pref="134" max="32767" attributes="2"/>
+                  <Component id="txtCuil" alignment="0" pref="134" max="32767" attributes="2"/>
+                  <Component id="cbxTipoDocumento" alignment="0" pref="134" max="32767" attributes="2"/>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblFechaNacimiento" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ckbEscolarizado" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                          <Component id="lblNombres" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblNumeroDocumento" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lblFechaFinVinculo" min="-2" pref="86" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="dtcFinVinculo" min="-2" pref="123" max="-2" attributes="2"/>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="ckbDiscapacitado" alignment="0" pref="125" max="32767" attributes="2"/>
+                          <Component id="txtNombres" alignment="0" pref="125" max="32767" attributes="2"/>
+                          <Component id="txtNumeroDocumento" alignment="0" pref="125" max="32767" attributes="2"/>
+                          <Component id="dtcFechaNacimiento" alignment="0" pref="125" max="32767" attributes="2"/>
+                      </Group>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnBuscarPersona" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnBuscarPersona" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFechaNacimiento" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblCuil" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtCuil" alignment="3" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <Component id="dtcFechaNacimiento" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTipoDocumento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cbxTipoDocumento" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="txtNumeroDocumento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNumeroDocumento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblApellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtApellido" alignment="3" min="-2" max="-2" attributes="1"/>
+                          <Component id="txtNombres" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                          <Component id="lblNombres" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="lblParentesco" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Component id="lblFechaInicioVinculo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Component id="ckbEscolarizado" min="-2" pref="17" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="ckbDiscapacitado" min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="dtcFinVinculo" min="-2" max="-2" attributes="1"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="lblFechaFinVinculo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="cbxParentesco" min="-2" pref="19" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="dtcInicioVinculo" min="-2" pref="19" max="-2" attributes="1"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="com.toedter.calendar.JDateChooser" name="dtcInicioVinculo">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="name" type="java.lang.String" value="dtcInicioVinculo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxParentesco">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="C&#xf3;nyuge"/>
+            <StringItem index="1" value="Hijo"/>
+            <StringItem index="2" value="&#xd1;ieto"/>
+            <StringItem index="3" value="Otro"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="cbxParentesco.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbxParentesco" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cbxTipoDocumento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Documento &#xda;nico"/>
+            <StringItem index="1" value="Libreta de C&#xed;vica"/>
+            <StringItem index="2" value="Libreta de Enrolamiento"/>
+          </StringArray>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="cbxTipoDocumento.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="cbxTipoDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCuil">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="txtCuil.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="txtCuil" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckbEscolarizado">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="ckbEscolarizado.text"/>
+        <Property name="name" type="java.lang.String" value="ckbEscolarizado" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="dtcFechaNacimiento">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="name" type="java.lang.String" value="dtcFechaNacimiento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNumeroDocumento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="txtNumeroDocumento.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="txtNumeroDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNombres">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="txtNombres.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="txtNombres" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ckbDiscapacitado">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="66" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="ckbDiscapacitado.text"/>
+        <Property name="name" type="java.lang.String" value="ckbDiscapacitado" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ckbDiscapacitadoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBuscarPersona">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="btnBuscarPersona.icon"/>
+        <Property name="name" type="java.lang.String" value="btnBuscarPersona" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarPersonaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCuil">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblCuil.text"/>
+        <Property name="name" type="java.lang.String" value="lblCuil" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTipoDocumento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblTipoDocumento.text"/>
+        <Property name="name" type="java.lang.String" value="lblTipoDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblApellido">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblApellido.text"/>
+        <Property name="name" type="java.lang.String" value="lblApellido" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblParentesco">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblParentesco.text"/>
+        <Property name="name" type="java.lang.String" value="lblParentesco" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFechaInicioVinculo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblFechaInicioVinculo.text"/>
+        <Property name="name" type="java.lang.String" value="lblFechaInicioVinculo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApellido">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder roundedCorners="true">
+              <Property name="color" resourceKey="txtApellido.border.lineColor"/>
+            </LineBorder>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="txtApellido" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFechaNacimiento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblFechaNacimiento.text"/>
+        <Property name="name" type="java.lang.String" value="lblFechaNacimiento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNumeroDocumento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblNumeroDocumento.text"/>
+        <Property name="name" type="java.lang.String" value="lblNumeroDocumento" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNombres">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblNombres.text"/>
+        <Property name="name" type="java.lang.String" value="lblNombres" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFechaFinVinculo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="Campo"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblFechaFinVinculo.text"/>
+        <Property name="name" type="java.lang.String" value="lblFechaFinVinculo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="dtcFinVinculo">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTextoCampo"/>
+        <Property name="font" type="java.awt.Font" resourceKey="ContenidoTextoCampo"/>
+        <Property name="name" type="java.lang.String" value="dtcFinVinculo" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,16 @@
+delete from linearecibo;
+delete from recibosueldo;
+delete from liquidacionhaberes;
+delete from conceptofijo;
+delete from conceptoporcentual;
+delete from conceptoprefijado;
+delete from conceptohaberes_plantilla;
+delete from conceptohaberes;
+delete from plantilla;
+delete from empleo;
+delete from beneficio;
+delete from montopermanenciaporcategoria;
+delete from montoantiguedadporcategoria;
+delete from antiguedad;
+delete from permanenciacategoria;
+delete from categoria;

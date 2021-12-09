@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ar.gov.cjpmv</groupId>
+	<artifactId>lydian</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>compilado</name>
+	<packaging>pom</packaging>
+
+	<parent>
+		<artifactId>prestamos</artifactId>
+		<groupId>ar.gov.cjpmv</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../prestamos/</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>prestamos.core</artifactId>
+			<version>${project.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>prestamos.gui</artifactId>
+			<version>${project.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.2.1</version>
+				<executions>
+					<execution>
+						<id>package-all</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+
+						<configuration>
+							<archive>
+								<addMavenDescriptor>false</addMavenDescriptor> 
+								<manifest>
+									<addClasspath>true</addClasspath>
+									<classpathPrefix>lib/</classpathPrefix>
+									<mainClass>ar.gov.cjpmv.prestamos.gui.Principal</mainClass>
+									<classpathLayoutType>repository</classpathLayoutType>
+								</manifest>
+							</archive>
+							<descriptors>
+								<descriptor>completo.xml</descriptor>
+							</descriptors>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			
+			 <plugin>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>2.2</version>
+                <executions>
+                       <execution>
+                       	  <id>copy-dependencies</id>
+                           <phase>package</phase>
+                           <goals>
+                               <goal>copy-dependencies</goal>
+                           </goals>
+                           <configuration>
+                               <outputDirectory>${project.build.directory}/lib</outputDirectory>
+							   <excludeGroupIds>ar.gov.cjpmv</excludeGroupIds>
+							</configuration>
+                       </execution>
+                   </executions>
+           </plugin>
+		</plugins>
+	</build>
+</project>

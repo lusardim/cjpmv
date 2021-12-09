@@ -1,0 +1,46 @@
+Créditos directos: Aquellos que solicita la persona en cuestión 
+Créditos indirectos: Aquellos créditos en que la persona en cuestión es garante.
+Creditos indirectos afectados: Aquellos créditos en que el titular no está pagando y en su lugar el garante se hace cargo de las cuotas.
+
+Liquidación de créditos - Exportación a municipalidad
+------------------------------
+1 - Toma todas las personas que tengan créditos directos e indirectos que se encuentran afectados a la misma. Cuyos créditos sean cobrados utilizando la vía de cobro "municipalidad"
+2 - De cada persona encontrada obtiene todos los créditos directos que tengan cuotas sin pagar
+3 - Por cada credito toma la cuota más vieja sin pagar, si es la última cuota, le descuenta el monto que tenga de sobrante la persona y deja el mismo en cero. 
+4 - Suma el monto a pagar de todas las cuotas obtenidas.
+5 - Hace el mismo proceso de suma de cuotas con los créditos indirectos, incluido el descuento del sobrante en caso que quedara un poco.
+6 - El total obtenido por cada persona es mostrado en la tabla de liquidación.
+7 - Luego del control visual por parte del operario, se debe presionar el boton aceptar para guardar los cambios
+7 - Se genera el archivo para la municipalidad.
+
+Ajustes realizados a pedido de Zulma:
+- El monto a favor de la cuenta corriente solo se descuenta en la última cuota de cada crédito
+- Las cuotas que no se cobraron al momento de la liquidación, vuelven a enviarse.
+
+Importación de muncipalidad, cobro de créditos.
+-------------------------------------------------
+
+La importación tiene 2 partes, procesar el archivo de cobros enviados por la municipalidad y el cobro de lo leido en el archivo
+
+Procesamiento del archivo:
+1 - Lee todas las personas que se encuentran en el arhivo 
+2 - Compara lo recibido en el archivo con lo enviado en la liquidación para ese período
+
+Existen 3 casos:
+	- Se envió la liquidación para la persona en cuestión y se encuentra en el archivo (caso normal)
+	- Se encuentra en el archivo un monto para una persona que NO se envió en la liquidación (Se cobra igual)
+	- Se envió en la liquidación una persona, pero esta no se encuentra en el archivo. (Caso de los jornalizados, generalmente se leen en una importación aparte)
+
+2 - Luego se compara el monto enviado con el recibido, en el cual pueden existir discrepancias cuando, por ejemplo, que se le haya cobrado menos a la persona por algún montivo.
+
+3 - El operario, luego del control de lo recibido utilizando la tabla de resultados. Debe presionar el botón "Cobrar" para iniciar el proceso de cobros
+
+Luego se realiza el proceso de cobro.
+1 - Toma cada monto recibido por cada persona y asocia el cobro con la liquidación enviada, en caso que no se haya mandado la persona en al liquidación queda registrado el cobro como un caso particular.
+2 - Busca de cada persona las cuotas más viejas impagas de todos los créditos (una cuota por cada crédito sin finalizar), considerando que hayan vencido ántes de la fecha de liquidación.
+3 - Le suma el monto a favor que la persona tenga registrado al valor que ingresa por el archivo, ántes de ralizar las cancelaciones correspondientes.
+4 - Cancela cuota por cuota, hasta que termine de cancelar todas las cuotas encontradas (caso normal) o hasta que el monto disponible para la cancelación (monto ingresado en el archivo + monto a favor de la cuenta corriente) que quede sea inferior a la menor de las cuotas por cobrar (depositó menos de lo que se necesitaba), en cuyo caso deja el valor sobrante asociado con la persona.
+5 - Realiza esta operación por todas las personas leidas en el archivo-
+
+Aclaración:
+El cobro es independiente de la liquidación, esto significa que más allá de intentar siempre cancelar lo liquidado, en caso que se cobre utilizando la importación de archivos a una persona que no fué liquidada, el sistema intentará cobrar las correspondientes a los créditos de la misma.

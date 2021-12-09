@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence 
+    xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+    http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+    version="1.0">
+<persistence-unit name="cjpmv" transaction-type="RESOURCE_LOCAL">
+	<provider>org.hibernate.ejb.HibernatePersistence</provider>
+	
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.PorcentajeTipoBeneficio</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.ConfiguracionSistema</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.Departamento</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.Domicilio</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.Localidad</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.Persona</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.PersonaFisica</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.PersonaJuridica</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.Provincia</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.Telefono</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.TipoBeneficio</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.TipoDocumento</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.EstadoCheque</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.EstadoCivil</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.EstadoCredito</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.EstadoPersonaFisica</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.EstadoPersonaJuridica</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.Sexo</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.SituacionCuota</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.SituacionPeriodo</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.SituacionRevista</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.TipoCuenta</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.TipoFormulario</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.enums.TipoTelefono</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Banco</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Cancelacion</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Cheque</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Cobro</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.CobroLiquidacion</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.CobroPorBanco</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.CobroPorCancelacionCredito</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Concepto</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Credito</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.CuentaBancaria</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.CuentaCorriente</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Cuota</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.CobroDetalleLiquidacion</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.DetalleCredito</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.DetalleLiquidacion</class>
+	<class>ar.gov.cjpmv.prestamos.core.business.prestamos.Directo</class>
+	<class>ar.gov.cjpmv.prestamos.core.business.prestamos.Frances</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Garantia</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.GarantiaPersonal</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.GarantiaPropietaria</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.Liquidacion</class>
+	<class>ar.gov.cjpmv.prestamos.core.business.prestamos.Sistema</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.TipoCredito</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.prestamo.ViaCobro</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.seguridad.ModuloSistema</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.seguridad.Usuario</class>
+	<!-- Contable -->
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.Asiento</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.AsientoModelo</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.Cuenta</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.EjercicioContable</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.LibroDiario</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.Movimiento</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.PlanCuenta</class>
+	
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.enums.TipoCuentaContable</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.contable.enums.TipoSaldo</class>
+
+	<!-- sueldo -->
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.Antiguedad</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.Beneficio</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.Categoria</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.ConceptoHaberes</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.ConceptoFijo</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.ConceptoPorcentual</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.ConceptoPrefijado</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.Empleo</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.Jubilacion</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.LineaRecibo</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.LiquidacionHaberes</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.Pension</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.PermanenciaCategoria</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.Plantilla</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.TipoLiquidacion</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.MontoAntiguedadPorCategoria</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.MontoPermanenciaPorCategoria</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.ReciboSueldo</class>
+	<class>ar.gov.cjpmv.prestamos.core.persistence.sueldos.LineaRecibo</class>
+	
+    <properties>
+        <property name="hibernate.connection.url" value="jdbc:derby:memory:cjpmv-test;create=true"/> 
+        <property name="hibernate.connection.driver_class" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.DerbyDialect"/>
+        <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+        <property name="hibernate.connection.username" value=""/>
+        <property name="hibernate.connection.password" value=""/>
+        <property name="hibernate.show_sql" value = "false" />
+    </properties>
+
+</persistence-unit>
+</persistence>

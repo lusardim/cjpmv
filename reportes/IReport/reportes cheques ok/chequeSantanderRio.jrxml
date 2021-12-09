@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="chequeSantanderRio" pageWidth="510" pageHeight="215" columnWidth="510" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0">
+	<property name="ireport.zoom" value="1.6500000000000004"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<field name="montoNumero" class="java.lang.String"/>
+	<field name="dia" class="java.lang.String"/>
+	<field name="mes" class="java.lang.String"/>
+	<field name="anio" class="java.lang.String"/>
+	<field name="montoLetra" class="java.lang.String"/>
+	<field name="nombrePersona" class="java.lang.String"/>
+	<field name="montoLetraContinuacion" class="java.lang.String"/>
+	<field name="diaDiferido" class="java.lang.String"/>
+	<field name="mesDiferido" class="java.lang.String"/>
+	<field name="anioDiferido" class="java.lang.String"/>
+	<field name="banco" class="java.lang.String"/>
+	<pageHeader>
+		<band height="215" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="322" y="7" width="137" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{montoNumero}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="78" y="43" width="17" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{dia}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="109" y="44" width="61" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{mes}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="177" y="44" width="41" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{anio}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="92" y="75" width="289" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombrePersona}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="129" y="94" width="330" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{montoLetra}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="55" y="115" width="407" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{montoLetraContinuacion}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="60" y="58" width="20" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{diaDiferido}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="92" y="58" width="115" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{mesDiferido}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="218" y="58" width="51" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Monospaced" size="10"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{anioDiferido}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+</jasperReport>

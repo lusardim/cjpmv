@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project prestamos.gui with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/tmp/entrega/Prestamos.jar">
+            <manifest>
+                <attribute name="Main-Class" value="ar.gov.cjpmv.prestamos.gui.Principal"/>
+                <attribute name="Class-Path" value=". Prestamos_lib/appframework-1.03.jar Prestamos_lib/swing-worker-1.1.jar Prestamos_lib/jasperreports-3.5.3.jar Prestamos_lib/commons-beanutils-1.8.0.jar Prestamos_lib/commons-logging-1.0.2.jar Prestamos_lib/commons-collections-2.1.jar Prestamos_lib/commons-digester-1.7.jar Prestamos_lib/xml-apis-1.3.02.jar Prestamos_lib/itext-2.1.0.jar Prestamos_lib/bcmail-jdk14-136.jar Prestamos_lib/bcprov-jdk14-136.jar Prestamos_lib/jcommon-1.0.15.jar Prestamos_lib/jfreechart-1.0.12.jar Prestamos_lib/jdtcore-3.1.0.jar Prestamos_lib/swing-layout-1.0.3.jar Prestamos_lib/swingx-1.6.jar Prestamos_lib/filters-2.0.235.jar Prestamos_lib/jcalendar-1.3.2.jar Prestamos_lib/mysql-connector-java-5.1.10.jar Prestamos_lib/persistence-api-1.0.jar Prestamos_lib/jta-1.1.jar Prestamos_lib/hsqldb-1.8.0.7.jar Prestamos_lib/hibernate-3.2.2.ga.jar Prestamos_lib/ehcache-1.2.3.jar Prestamos_lib/asm-attrs-1.5.3.jar Prestamos_lib/dom4j-1.6.1.jar Prestamos_lib/antlr-2.7.6.jar Prestamos_lib/cglib-2.1_3.jar Prestamos_lib/asm-1.5.3.jar Prestamos_lib/hibernate-annotations-3.2.1.ga.jar Prestamos_lib/hibernate-entitymanager-3.2.1.ga.jar Prestamos_lib/javassist-3.3.ga.jar Prestamos_lib/jboss-archive-browsing-5.0.0alpha-200607201-119.jar Prestamos_lib/hibernate-tools-3.2.0.beta9a.jar Prestamos_lib/freemarker-2.3.4.jar Prestamos_lib/jtidy-r8-20060801.jar Prestamos_lib/c3p0-0.9.1.jar Prestamos_lib/commons-lang-2.5.jar"/>
+            </manifest>
+            <fileset dir="/home/pulpol/workspace/prestamos.gui/target/classes"/>
+            <fileset dir="/home/pulpol/workspace/prestamos.core/target/classes"/>
+        </jar>
+        <delete dir="/tmp/entrega/Prestamos_lib"/>
+        <mkdir dir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/net/java/dev/appframework/appframework/1.03/appframework-1.03.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/swinglabs/swing-worker/1.1/swing-worker-1.1.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/jasperreports/jasperreports/3.5.3/jasperreports-3.5.3.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/commons-logging/commons-logging/1.0.2/commons-logging-1.0.2.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/commons-collections/commons-collections/2.1/commons-collections-2.1.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/commons-digester/commons-digester/1.7/commons-digester-1.7.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/xml-apis/xml-apis/1.3.02/xml-apis-1.3.02.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/com/lowagie/itext/2.1.0/itext-2.1.0.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/bouncycastle/bcmail-jdk14/136/bcmail-jdk14-136.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/bouncycastle/bcprov-jdk14/136/bcprov-jdk14-136.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/jfree/jcommon/1.0.15/jcommon-1.0.15.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/jfree/jfreechart/1.0.12/jfreechart-1.0.12.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/eclipse/jdtcore/3.1.0/jdtcore-3.1.0.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/swinglabs/swing-layout/1.0.3/swing-layout-1.0.3.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/swinglabs/swingx/1.6/swingx-1.6.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/com/jhlabs/filters/2.0.235/filters-2.0.235.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/com/toedter/jcalendar/1.3.2/jcalendar-1.3.2.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/mysql/mysql-connector-java/5.1.10/mysql-connector-java-5.1.10.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/hsqldb/hsqldb/1.8.0.7/hsqldb-1.8.0.7.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/hibernate/hibernate/3.2.2.ga/hibernate-3.2.2.ga.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/asm/asm-attrs/1.5.3/asm-attrs-1.5.3.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/cglib/cglib/2.1_3/cglib-2.1_3.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/asm/asm/1.5.3/asm-1.5.3.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/hibernate/hibernate-annotations/3.2.1.ga/hibernate-annotations-3.2.1.ga.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/hibernate/hibernate-entitymanager/3.2.1.ga/hibernate-entitymanager-3.2.1.ga.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/jboss/javassist/3.3.ga/javassist-3.3.ga.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/jboss/jboss-archive-browsing/5.0.0alpha-200607201-119/jboss-archive-browsing-5.0.0alpha-200607201-119.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/hibernate/hibernate-tools/3.2.0.beta9a/hibernate-tools-3.2.0.beta9a.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/freemarker/freemarker/2.3.4/freemarker-2.3.4.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/org/hibernate/jtidy/r8-20060801/jtidy-r8-20060801.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/c3p0/c3p0/0.9.1/c3p0-0.9.1.jar" todir="/tmp/entrega/Prestamos_lib"/>
+        <copy file="/home/pulpol/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar" todir="/tmp/entrega/Prestamos_lib"/>
+    </target>
+</project>

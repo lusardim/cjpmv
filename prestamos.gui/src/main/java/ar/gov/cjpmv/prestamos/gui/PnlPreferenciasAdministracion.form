@@ -1,0 +1,191 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" resourceKey="FondoCeleste"/>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+        <PropertyBean type="org.jdesktop.swingx.border.DropShadowBorder"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[629, 179]"/>
+    </Property>
+    <Property name="requestFocusEnabled" type="boolean" value="false"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="lblConfiguracion" min="-2" pref="104" max="-2" attributes="1"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="lblIconoConfiguracion" min="-2" pref="72" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblIconoUsuarios" alignment="0" min="0" pref="0" max="32767" attributes="1"/>
+                  <Component id="lblUsuarios" alignment="0" min="-2" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lblIconoResguardo" min="-2" max="-2" attributes="1"/>
+                  <Component id="lblResguardo" min="-2" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblIconoAyuda" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="10" attributes="0"/>
+                      <Component id="lblAyuda" pref="121" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="lblTitulo" alignment="0" pref="558" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblIconoConfiguracion" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblConfiguracion" min="-2" pref="15" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblIconoAyuda" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblAyuda" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="lblIconoResguardo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblResguardo" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lblIconoUsuarios" min="-2" pref="69" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblUsuarios" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="41" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="lblTitulo">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="FondoAzulOscuro"/>
+        <Property name="font" type="java.awt.Font" resourceKey="tituloBarrita"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblTitulo.foreground"/>
+        <Property name="name" type="java.lang.String" value="lblTitulo" noResource="true"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblTitulo.text"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblConfiguracion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="tituloBarrita"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblConfiguracion.text"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblConfiguracion" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIconoConfiguracion">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="lblIconoConfiguracion.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblIconoConfiguracion.foreground"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="lblIconoConfiguracion.icon"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblIconoConfiguracion" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIconoResguardo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="lblIconoResguardo.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblIconoResguardo.foreground"/>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="lblIconoResguardo.icon"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblIconoResguardo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblResguardo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="tituloBarrita"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblResguardo.text"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblResguardo" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIconoAyuda">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="lblIconoAyuda.icon"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblIconoAyuda" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAyuda">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="tituloBarrita"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="ColorTituloBarrita"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblAyuda.text"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblAyuda" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIconoUsuarios">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" resourceKey="lblIconoUsuarios.icon"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblIconoUsuarios" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblUsuarios">
+      <Properties>
+        <Property name="font" type="java.awt.Font" resourceKey="lblUsuarios.font"/>
+        <Property name="foreground" type="java.awt.Color" resourceKey="lblUsuarios.foreground"/>
+        <Property name="text" type="java.lang.String" resourceKey="lblUsuarios.text"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor de mano"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="lblUsuarios" noResource="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,384 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel10" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel10" alignment="0" max="32767" attributes="2"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel10">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="jPanel10.background"/>
+        <Property name="name" type="java.lang.String" value="jPanel10" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="xtpImportacionArchivos" alignment="0" pref="231" max="32767" attributes="2"/>
+                      <Component id="xtpCobroCuotas" alignment="0" pref="231" max="32767" attributes="2"/>
+                      <Component id="xtpGarantias" alignment="0" pref="231" max="32767" attributes="2"/>
+                      <Component id="xtpAdministracion" alignment="1" pref="231" max="32767" attributes="2"/>
+                      <Component id="xtpReportes" alignment="0" pref="231" max="32767" attributes="2"/>
+                      <Component id="xtpOtorgamiento" alignment="0" pref="231" max="32767" attributes="2"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Component id="pnlCabeceraBotoneraCreditos1" alignment="0" pref="251" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="pnlCabeceraBotoneraCreditos1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="xtpOtorgamiento" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="xtpCobroCuotas" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="xtpGarantias" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="xtpImportacionArchivos" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="xtpAdministracion" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="xtpReportes" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpOtorgamiento">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="xtpOtorgamiento.background"/>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="xtpOtorgamiento.icon"/>
+            <Property name="name" type="java.lang.String" value="xtpOtorgamiento" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtpOtorgamiento.title"/>
+          </Properties>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhNuevoCredito">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhNuevoCredito.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhNuevoCredito.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhNuevoCredito" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhNuevoCreditoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhNuevoCreditoPorCancelacion">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhNuevoCreditoPorCancelacion.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhNuevoCreditoPorCancelacion.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhNuevoCreditoPorCancelacion" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpCobroCuotas">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="xtpCobroCuotas.background"/>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="xtpCobroCuotas.icon"/>
+            <Property name="name" type="java.lang.String" value="xtpCobroCuotas" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtpCobroCuotas.title"/>
+          </Properties>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhPorDepositoBancario">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhPorDepositoBancario.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhPorDepositoBancario.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhPorDepositoBancario" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhPorDepositoBancarioActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhPorLiquidacionDeHaberes">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhPorLiquidacionDeHaberes.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhPorLiquidacionDeHaberes.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhPorLiquidacionDeHaberes" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpImportacionArchivos">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="xtpImportacionArchivos.background"/>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="xtpImportacionArchivos.icon"/>
+            <Property name="name" type="java.lang.String" value="xtpImportacionArchivos" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtpImportacionArchivos.title"/>
+          </Properties>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhLiquidacionMunicipalidad">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhLiquidacionMunicipalidad.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhLiquidacionMunicipalidad.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhLiquidacionMunicipalidad" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhLiquidacionMunicipalidadActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhPorMunicipalidad">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhPorMunicipalidad.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhPorMunicipalidad.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhPorMunicipalidad" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhPorMunicipalidadActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpAdministracion">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="xtpAdministracion.background"/>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="xtpAdministracion.icon"/>
+            <Property name="name" type="java.lang.String" value="xtpAdministracion" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtpAdministracion.title"/>
+          </Properties>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhEstadoCuenta">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhEstadoCuenta.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhEstadoCuenta.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhEstadoCuenta" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhEstadoCuentaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhViaCobro">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhViaCobro.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhViaCobro.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhViaCobro" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhViaCobroActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhCheques">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhCheques.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhCheques.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhCheques" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpReportes">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="xtpReportes.background"/>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="xtpReportes.icon"/>
+            <Property name="name" type="java.lang.String" value="xtpReportes" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtpReportes.title"/>
+          </Properties>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhReportesSaldoTIpoCredito">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhReportesSaldoTIpoCredito.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhReportesSaldoTIpoCredito.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhReportesSaldoTIpoCredito" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhReportesSaldoTIpoCreditoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhDeudoresMorosos">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhDeudoresMorosos.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhDeudoresMorosos.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhDeudoresMorosos" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhDeudoresMorososActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhSaldoPorPeriodo">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhSaldoPorPeriodo.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhSaldoPorPeriodo.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhSaldoPorPeriodo" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhSaldoPorPeriodoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhFormularioCredito">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhFormularioCredito.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhFormularioCredito.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhFormularioCredito" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhFormularioCreditoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhCreditosOtorgadosPorPeriodo">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhCreditosOtorgadosPorPeriodo.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhCreditosOtorgadosPorPeriodo.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhCreditosOtorgadosPorPeriodo" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhCreditosOtorgadosPorPeriodoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhReportesCobranzas">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhReportesCobranzas.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhReportesCobranzas.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhReportesCobranzas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhReportesCobranzasActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhReportesCapital">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhReportesCapital.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhReportesCapital.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhReportesCapital" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhReportesCapitalActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhCobroBancario">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhCobroBancario.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhCobroBancario.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhCobroBancario" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhCobroBancarioActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="org.jdesktop.swingx.JXTaskPane" name="xtpGarantias">
+          <Properties>
+            <Property name="background" type="java.awt.Color" resourceKey="xtpGarantias.background"/>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="xtpGarantias.icon"/>
+            <Property name="name" type="java.lang.String" value="xtpGarantias" noResource="true"/>
+            <Property name="title" type="java.lang.String" resourceKey="xtpGarantias.title"/>
+          </Properties>
+          <SubComponents>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhAfectarGarantes">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhAfectarGarantes.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhAfectarGarantes.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhAfectarGarantes" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhAfectarGarantesActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXHyperlink" name="xhDesafectarGarantes">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="xhDesafectarGarantes.text"/>
+                <Property name="clickedColor" type="java.awt.Color" resourceKey="xhDesafectarGarantes.clickedColor"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor de mano"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="xhDesafectarGarantes" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="xhDesafectarGarantesActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="ar.gov.cjpmv.prestamos.gui.creditos.PnlCabeceraBotoneraCreditos" name="pnlCabeceraBotoneraCreditos1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pnlCabeceraBotoneraCreditos1" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

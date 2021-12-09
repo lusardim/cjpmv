@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="453"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="fechaCobro" class="java.lang.String"/>
+	<parameter name="numeroBoleta" class="java.lang.String"/>
+	<parameter name="numeroCuentaBancaria" class="java.lang.String"/>
+	<parameter name="entidadBancaria" class="java.lang.String"/>
+	<parameter name="montoTotal" class="java.lang.String"/>
+	<parameter name="saldoAcreedor" class="java.lang.String"/>
+	<parameter name="totalAPagar" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="numeroCredito" class="java.lang.String"/>
+	<field name="solicitante" class="java.lang.String"/>
+	<field name="numeroCuota" class="java.lang.String"/>
+	<field name="vencimiento" class="java.lang.String"/>
+	<field name="valorTotal" class="java.lang.String"/>
+	<group name="actorSolicitante">
+		<groupExpression><![CDATA[]]></groupExpression>
+		<groupHeader>
+			<band height="28">
+				<staticText>
+					<reportElement key="staticText-2" x="0" y="0" width="121" height="13" forecolor="#828DC2" backcolor="#FFFFFF"/>
+					<box>
+						<pen lineWidth="0.0" lineStyle="Dotted"/>
+						<topPen lineWidth="0.0" lineStyle="Dotted"/>
+						<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+						<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+						<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+					</box>
+					<textElement verticalAlignment="Middle">
+						<font fontName="Tahoma" size="10" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+					</textElement>
+					<text><![CDATA[Detalle de Cobro]]></text>
+				</staticText>
+				<staticText>
+					<reportElement key="staticText-5" mode="Opaque" x="0" y="13" width="51" height="15" forecolor="#FFFFFF" backcolor="#828DC2"/>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica"/>
+					</textElement>
+					<text><![CDATA[Nº Crédito]]></text>
+				</staticText>
+				<staticText>
+					<reportElement key="staticText-5" mode="Opaque" x="51" y="13" width="270" height="15" forecolor="#FFFFFF" backcolor="#828DC2"/>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica"/>
+					</textElement>
+					<text><![CDATA[Solicitante]]></text>
+				</staticText>
+				<staticText>
+					<reportElement key="staticText-5" mode="Opaque" x="321" y="13" width="51" height="15" forecolor="#FFFFFF" backcolor="#828DC2"/>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica"/>
+					</textElement>
+					<text><![CDATA[Nº Cuota]]></text>
+				</staticText>
+				<staticText>
+					<reportElement key="staticText-5" mode="Opaque" x="372" y="13" width="78" height="15" forecolor="#FFFFFF" backcolor="#828DC2"/>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica"/>
+					</textElement>
+					<text><![CDATA[Vencimiento]]></text>
+				</staticText>
+				<staticText>
+					<reportElement key="staticText-5" mode="Opaque" x="450" y="13" width="102" height="15" forecolor="#FFFFFF" backcolor="#828DC2"/>
+					<box>
+						<pen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+						<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica"/>
+					</textElement>
+					<text><![CDATA[Monto Total]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="4"/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="110" splitType="Stretch">
+			<staticText>
+				<reportElement x="3" y="0" width="200" height="18" forecolor="#828DC2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Tahoma" isBold="true" pdfFontName="Helvetica-Oblique"/>
+				</textElement>
+				<text><![CDATA[Cobro de Cuotas por Depósito Bancario]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="18" width="37" height="18" forecolor="#828DC2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" isBold="true" pdfFontName="Helvetica-Oblique"/>
+				</textElement>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="40" y="18" width="111" height="18" forecolor="#828DC2"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Tahoma" isBold="true"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText-1" x="335" y="-1" width="175" height="19" forecolor="#828DC2" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="10" isBold="true" isItalic="true" isUnderline="false" pdfFontName="Helvetica" pdfEncoding="Identity-H"/>
+				</textElement>
+				<text><![CDATA[Caja de Jubilaciones y Pensiones]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-1" x="335" y="18" width="175" height="19" forecolor="#828DC2" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="9" isBold="true" isItalic="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Municipalidad de Victoria - Entre Ríos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-5" mode="Opaque" x="3" y="53" width="549" height="15" forecolor="#FFFFFF" backcolor="#828DC2"/>
+				<box>
+					<pen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica"/>
+				</textElement>
+				<text><![CDATA[   DATOS DEL COBRO]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="3" y="68" width="549" height="36" forecolor="#828DC2"/>
+			</rectangle>
+			<staticText>
+				<reportElement key="staticText-1" x="11" y="86" width="87" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Nº de Boleta:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-1" x="11" y="68" width="87" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Fecha del Cobro:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-1" x="215" y="68" width="101" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Nº de Cuenta Bancaria:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-1" x="215" y="86" width="101" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Entidad Bancaria:]]></text>
+			</staticText>
+			<line>
+				<reportElement key="line-1" x="3" y="40" width="549" height="1" forecolor="#828DC2"/>
+			</line>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="98" y="68" width="105" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Bold" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{fechaCobro}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="98" y="86" width="105" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Bold" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{numeroBoleta}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="316" y="68" width="229" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Bold" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{numeroCuentaBancaria}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="316" y="84" width="229" height="20" forecolor="#666666" backcolor="#FFFFFF"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica-Bold" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{entidadBancaria}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="517" y="-1" width="35" height="41"/>
+				<imageExpression class="java.lang.String"><![CDATA["reportes/logo.GIF"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="7" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="6" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="0" y="0" width="51" height="20" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.5" lineColor="#828DC2"/>
+					<topPen lineWidth="0.5" lineColor="#828DC2"/>
+					<leftPen lineWidth="0.5" lineColor="#828DC2"/>
+					<bottomPen lineWidth="0.5" lineColor="#828DC2"/>
+					<rightPen lineWidth="0.5" lineColor="#828DC2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numeroCredito}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="51" y="0" width="270" height="20" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.5" lineColor="#828DC2"/>
+					<topPen lineWidth="0.5" lineColor="#828DC2"/>
+					<leftPen lineWidth="0.5" lineColor="#828DC2"/>
+					<bottomPen lineWidth="0.5" lineColor="#828DC2"/>
+					<rightPen lineWidth="0.5" lineColor="#828DC2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{solicitante}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="321" y="0" width="51" height="20" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.5" lineColor="#828DC2"/>
+					<topPen lineWidth="0.5" lineColor="#828DC2"/>
+					<leftPen lineWidth="0.5" lineColor="#828DC2"/>
+					<bottomPen lineWidth="0.5" lineColor="#828DC2"/>
+					<rightPen lineWidth="0.5" lineColor="#828DC2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{numeroCuota}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="372" y="0" width="78" height="20" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.5" lineColor="#828DC2"/>
+					<topPen lineWidth="0.5" lineColor="#828DC2"/>
+					<leftPen lineWidth="0.5" lineColor="#828DC2"/>
+					<bottomPen lineWidth="0.5" lineColor="#828DC2"/>
+					<rightPen lineWidth="0.5" lineColor="#828DC2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{vencimiento}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="450" y="0" width="102" height="20" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.5" lineColor="#828DC2"/>
+					<topPen lineWidth="0.5" lineColor="#828DC2"/>
+					<leftPen lineWidth="0.5" lineColor="#828DC2"/>
+					<bottomPen lineWidth="0.5" lineColor="#828DC2"/>
+					<rightPen lineWidth="0.5" lineColor="#828DC2"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{valorTotal}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17" splitType="Stretch">
+			<textField evaluationTime="Report">
+				<reportElement x="509" y="0" width="36" height="17"/>
+				<textElement>
+					<font fontName="Tahoma" size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="0" width="49" height="17"/>
+				<textElement textAlignment="Right">
+					<font fontName="Tahoma" size="8"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="80" splitType="Stretch">
+			<rectangle>
+				<reportElement x="372" y="26" width="180" height="54" forecolor="#828DC2"/>
+			</rectangle>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="452" y="46" width="100" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{saldoAcreedor}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="452" y="28" width="100" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{montoTotal}]]></textFieldExpression>
+			</textField>
+			<textField pattern="" isBlankWhenNull="true">
+				<reportElement mode="Transparent" x="452" y="64" width="100" height="16" forecolor="#666666" backcolor="#FFFFFF"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle" rotation="None" lineSpacing="Single" markup="none">
+					<font fontName="Tahoma" size="8" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="Helvetica" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{totalAPagar}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement key="staticText-1" x="381" y="28" width="69" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Monto Total:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-1" x="381" y="46" width="69" height="18" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Saldor Acreedor:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-1" x="381" y="64" width="69" height="16" forecolor="#666666" backcolor="#FFFFFF"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Dotted"/>
+					<topPen lineWidth="0.0" lineStyle="Dotted"/>
+					<leftPen lineWidth="0.0" lineStyle="Dotted"/>
+					<bottomPen lineWidth="0.0" lineStyle="Dotted"/>
+					<rightPen lineWidth="0.0" lineStyle="Dotted"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
+				</textElement>
+				<text><![CDATA[Total a Pagar:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-5" mode="Opaque" x="372" y="11" width="180" height="15" forecolor="#FFFFFF" backcolor="#828DC2"/>
+				<box>
+					<pen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+					<rightPen lineWidth="0.5" lineStyle="Solid" lineColor="#828D9C"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Tahoma" size="8" isBold="true" isUnderline="false" pdfFontName="Helvetica"/>
+				</textElement>
+				<text><![CDATA[Totales]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>
